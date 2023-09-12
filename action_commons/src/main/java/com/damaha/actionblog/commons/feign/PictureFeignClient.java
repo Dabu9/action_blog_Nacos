@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 
 /**
- * mogu_picture相关接口
+ * action_picture相关接口
  *
  * @author 陌溪
  */
-@FeignClient(name = "mogu-picture", configuration = FeignConfiguration.class, fallback = PictureFeignFallback.class)
+@FeignClient(name = "action-picture", configuration = FeignConfiguration.class, fallback = PictureFeignFallback.class)
 public interface PictureFeignClient {
 
     /**

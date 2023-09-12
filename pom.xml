@@ -56,6 +56,14 @@
         <module>action_xo</module>
         <module>action_commons</module>
         <module>action_base</module>
+        <module>action_web</module>
+        <module>action_sms</module>
+        <module>action_gateway</module>
+        <module>action_picture</module>
+        <module>action_monitor</module>
+        <module>action_search</module>
+        <module>action_spider</module>
+        <module>action_zipkin</module>
 
     </modules>
 
@@ -86,20 +94,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <!--阿里云镜像源（因需要提交到GithubActions，会引起依赖下载过慢的问题）-->
-    <!--    <repositories>-->
-    <!--        <repository>-->
-    <!--            <id>nexus-aliyun</id>-->
-    <!--            <name>nexus-aliyun</name>-->
-    <!--            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>-->
-    <!--            <releases>-->
-    <!--                <enabled>true</enabled>-->
-    <!--            </releases>-->
-    <!--            <snapshots>-->
-    <!--                <enabled>false</enabled>-->
-    <!--            </snapshots>-->
-    <!--        </repository>-->
-    <!--    </repositories>-->
 
 </project>
