@@ -7,10 +7,26 @@
     <file url="file://$PROJECT_DIR$/action_base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/action_commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/action_commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_monitor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_picture/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_picture/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_sms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_spider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_spider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/action_utils/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/action_utils/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/action_xo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/action_xo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_zipkin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/action_zipkin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
