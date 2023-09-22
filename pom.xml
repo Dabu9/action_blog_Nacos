@@ -47,6 +47,10 @@
         <knife4j.version>3.0.2</knife4j.version>
         <spring-cloud-alibaba.version>2.2.4.RELEASE</spring-cloud-alibaba.version>
         <spring-boot-dependencies.version>2.2.5.RELEASE</spring-boot-dependencies.version>
+
+
+        <docker.repostory>registry.cn-chengdu.aliyuncs.com</docker.repostory>
+        <docker.registry.name>actionblog</docker.registry.name>
     </properties>
 
 

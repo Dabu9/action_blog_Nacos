@@ -18,8 +18,8 @@ docker-compose -f ../yaml/rabbitmq.yml up -d
 echo '=====开始运行redis====='
 docker-compose -f ../yaml/redis.yml up -d
 
-echo '=====开始部署mogu_data====='
-#docker-compose -f ../yaml/mogu_data.yml up -d
+echo '=====开始部署action_data====='
+#docker-compose -f ../yaml/action_data.yml up -d
 
 echo '=============================================='
 echo '=====【蘑菇博客依赖的中间件已经安装完毕】====='

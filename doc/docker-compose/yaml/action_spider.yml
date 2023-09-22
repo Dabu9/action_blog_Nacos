@@ -1,0 +1,18 @@
+version: '3'
+services:
+  #授权服务
+  action_spider:
+    image: registry.cn-chengdu.aliyuncs.com/actionblog/action_spider:latest
+    container_name: action_spider
+    restart: always
+    ports:
+      - 8608:8608
+    networks:
+      - action
+    environment:
+      - COMPOSE_PROJECT_NAME=action_spider
+    volumes:
+      - ../log/:/logs/
+networks:
+  action:
+    external: true

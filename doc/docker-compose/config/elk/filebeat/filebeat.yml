@@ -4,99 +4,99 @@ filebeat.inputs:
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-web/*.log
+      - ../../../log/action-web/*.log
     fields:
-      docType: mogu_web-log
-      project: mogu_web
-      from: mogu_web
+      docType: action_web-log
+      project: action_web
+      from: action_web
     fields_under_root: true
     multiline:
-      pattern: '^\[mogu-web:[\d\.:]+\]'
+      pattern: '^\[action-web:[\d\.:]+\]'
       negate: true
       match: after
       timeout: 2s
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-admin/*.log
+      - ../../../log/action-admin/*.log
     fields:
-      docType: mogu_admin-log
-      project: mogu_admin
-      from: mogu_admin
+      docType: action_admin-log
+      project: action_admin
+      from: action_admin
     fields_under_root: true
     multiline:
-      pattern: '^\[mogu-admin:[\d\.:]+\]'
+      pattern: '^\[action-admin:[\d\.:]+\]'
       negate: true
       match: after
       timeout: 2s
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-sms/*.log
+      - ../../../log/action-sms/*.log
     fields:
-      docType: mogu_sms-log
-      project: mogu_sms
-      from: mogu_sms
+      docType: action_sms-log
+      project: action_sms
+      from: action_sms
     fields_under_root: true
     multiline:
-      pattern: '^\[mogu-sms:[\d\.:]+\]'
+      pattern: '^\[action-sms:[\d\.:]+\]'
       negate: true
       match: after
       timeout: 2s
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-picture/*.log
+      - ../../../log/action-picture/*.log
     fields:
-      docType: mogu_picture-log
-      project: mogu_picture
-      from: mogu_picture
+      docType: action_picture-log
+      project: action_picture
+      from: action_picture
     fields_under_root: true
     multiline:
-      pattern: '^\[mogu-picture:[\d\.:]+\]'
+      pattern: '^\[action-picture:[\d\.:]+\]'
       negate: true
       match: after
       timeout: 2s
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-gateway/*.log
+      - ../../../log/action-gateway/*.log
     fields:
-      docType: mogu_gateway-log
-      project: mogu_gateway
-      from: mogu_gateway
+      docType: action_gateway-log
+      project: action_gateway
+      from: action_gateway
     fields_under_root: true
     multiline:
-      pattern: '^\[mogu-gateway:[\d\.:]+\]'
+      pattern: '^\[action-gateway:[\d\.:]+\]'
       negate: true
       match: after
       timeout: 2s
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-monitor/*.log
+      - ../../../log/action-monitor/*.log
     fields:
-      docType: mogu_monitor-log
-      project: mogu_monitor
-      from: mogu_monitor
+      docType: action_monitor-log
+      project: action_monitor
+      from: action_monitor
     fields_under_root: true
     multiline:
-      pattern: '^\[mogu-monitor:[\d\.:]+\]'
+      pattern: '^\[action-monitor:[\d\.:]+\]'
       negate: true
       match: after
       timeout: 2s
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-search/*.log
+      - ../../../log/action-search/*.log
     fields:
-      docType: mogu_search-log
-      project: mogu_search
-      from: mogu_search
+      docType: action_search-log
+      project: action_search
+      from: action_search
     fields_under_root: true
-    pipeline: mogu-log
+    pipeline: action-log
     multiline:
-      pattern: '^\[mogu-search:[\d\.:]+\]'
+      pattern: '^\[action-search:[\d\.:]+\]'
       negate: true
       match: after
       timeout: 2s

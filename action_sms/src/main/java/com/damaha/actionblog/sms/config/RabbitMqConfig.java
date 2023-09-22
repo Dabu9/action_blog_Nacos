@@ -13,13 +13,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RabbitMqConfig {
 
-    public static final String MOGU_BLOG = "mogu.blog";
-    public static final String MOGU_EMAIL = "mogu.email";
-    public static final String MOGU_SMS = "mogu.sms";
+    public static final String ACTION_BLOG = "action.blog";
+    public static final String ACTION_EMAIL = "action.email";
+    public static final String ACTION_SMS = "action.sms";
     public static final String EXCHANGE_DIRECT = "exchange.direct";
-    public static final String ROUTING_KEY_BLOG = "mogu.blog";
-    public static final String ROUTING_KEY_EMAIL = "mogu.email";
-    public static final String ROUTING_KEY_SMS = "mogu.sms";
+    public static final String ROUTING_KEY_BLOG = "action.blog";
+    public static final String ROUTING_KEY_EMAIL = "action.email";
+    public static final String ROUTING_KEY_SMS = "action.sms";
 
     /**
      * 声明交换机
@@ -35,9 +35,9 @@ public class RabbitMqConfig {
      *
      * @return
      */
-    @Bean(MOGU_BLOG)
-    public Queue MOGU_BLOG() {
-        return new Queue(MOGU_BLOG);
+    @Bean(ACTION_BLOG)
+    public Queue ACTION_BLOG() {
+        return new Queue(ACTION_BLOG);
     }
 
     /**
@@ -45,9 +45,9 @@ public class RabbitMqConfig {
      *
      * @return
      */
-    @Bean(MOGU_EMAIL)
-    public Queue MOGU_EMAIL() {
-        return new Queue(MOGU_EMAIL);
+    @Bean(ACTION_EMAIL)
+    public Queue ACTION_EMAIL() {
+        return new Queue(ACTION_EMAIL);
     }
 
     /**
@@ -55,44 +55,44 @@ public class RabbitMqConfig {
      *
      * @return
      */
-    @Bean(MOGU_SMS)
-    public Queue MOGU_SMS() {
-        return new Queue(MOGU_SMS);
+    @Bean(ACTION_SMS)
+    public Queue ACTION_SMS() {
+        return new Queue(ACTION_SMS);
     }
 
     /**
-     * mogu.blog 队列绑定交换机，指定routingKey
+     * action.blog 队列绑定交换机，指定routingKey
      *
      * @param queue
      * @param exchange
      * @return
      */
     @Bean
-    public Binding BINDING_QUEUE_INFORM_BLOG(@Qualifier(MOGU_BLOG) Queue queue, @Qualifier(EXCHANGE_DIRECT) Exchange exchange) {
+    public Binding BINDING_QUEUE_INFORM_BLOG(@Qualifier(ACTION_BLOG) Queue queue, @Qualifier(EXCHANGE_DIRECT) Exchange exchange) {
         return BindingBuilder.bind(queue).to(exchange).with(ROUTING_KEY_BLOG).noargs();
     }
 
     /**
-     * mogu.mail 队列绑定交换机，指定routingKey
+     * action.mail 队列绑定交换机，指定routingKey
      *
      * @param queue
      * @param exchange
      * @return
      */
     @Bean
-    public Binding BINDING_QUEUE_INFORM_EMAIL(@Qualifier(MOGU_EMAIL) Queue queue, @Qualifier(EXCHANGE_DIRECT) Exchange exchange) {
+    public Binding BINDING_QUEUE_INFORM_EMAIL(@Qualifier(ACTION_EMAIL) Queue queue, @Qualifier(EXCHANGE_DIRECT) Exchange exchange) {
         return BindingBuilder.bind(queue).to(exchange).with(ROUTING_KEY_EMAIL).noargs();
     }
 
     /**
-     * mogu.sms 队列绑定交换机，指定routingKey
+     * action.sms 队列绑定交换机，指定routingKey
      *
      * @param queue
      * @param exchange
      * @return
      */
     @Bean
-    public Binding BINDING_QUEUE_INFORM_SMS(@Qualifier(MOGU_SMS) Queue queue, @Qualifier(EXCHANGE_DIRECT) Exchange exchange) {
+    public Binding BINDING_QUEUE_INFORM_SMS(@Qualifier(ACTION_SMS) Queue queue, @Qualifier(EXCHANGE_DIRECT) Exchange exchange) {
         return BindingBuilder.bind(queue).to(exchange).with(ROUTING_KEY_SMS).noargs();
     }
 

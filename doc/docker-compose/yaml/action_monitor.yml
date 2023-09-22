@@ -1,0 +1,19 @@
+version: '3'
+services:
+  #授权服务
+  action_mointor:
+    image: registry.cn-chengdu.aliyuncs.com/actionblog/action_monitor:latest
+    container_name: action_monitor
+    restart: always
+    ports:
+      - 8606:8606
+    networks:
+      - action
+    environment:
+      - COMPOSE_PROJECT_NAME=action_monitor
+    volumes:
+      - ../log/:/logs/
+      - ../config/action_monitor/:/config/
+networks:
+  action:
+    external: true

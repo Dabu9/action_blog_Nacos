@@ -2,41 +2,41 @@ echo #######################
 echo ##### begin copy ######
 echo #######################
 
-echo ###### copy mogu_admin ########
-copy .\conf\local\mogu_admin\application.yml ..\..\mogu_admin\src\main\resources\
-copy .\conf\local\mogu_admin\bootstrap.yml ..\..\mogu_admin\src\main\resources\
+echo ###### copy action_admin ########
+copy .\conf\local\action_admin\application.yml ..\..\action_admin\src\main\resources\
+copy .\conf\local\action_admin\bootstrap.yml ..\..\action_admin\src\main\resources\
 
 
-echo ###### copy mogu_gateway ########
-copy .\conf\local\mogu_gateway\application.yml ..\..\mogu_gateway\src\main\resources\
-copy .\conf\local\mogu_gateway\bootstrap.yml ..\..\mogu_gateway\src\main\resources\
+echo ###### copy action_gateway ########
+copy .\conf\local\action_gateway\application.yml ..\..\action_gateway\src\main\resources\
+copy .\conf\local\action_gateway\bootstrap.yml ..\..\action_gateway\src\main\resources\
 
 
-echo ###### copy mogu_monitor ########
-copy .\conf\local\mogu_monitor\application.yml ..\..\mogu_monitor\src\main\resources\
-copy .\conf\local\mogu_monitor\bootstrap.yml ..\..\mogu_monitor\src\main\resources\
+echo ###### copy action_monitor ########
+copy .\conf\local\action_monitor\application.yml ..\..\action_monitor\src\main\resources\
+copy .\conf\local\action_monitor\bootstrap.yml ..\..\action_monitor\src\main\resources\
 
 
-echo ###### copy mogu_picture ########
-copy .\conf\local\mogu_picture\application.yml ..\..\mogu_picture\src\main\resources\
-copy .\conf\local\mogu_picture\bootstrap.yml ..\..\mogu_picture\src\main\resources\
+echo ###### copy action_picture ########
+copy .\conf\local\action_picture\application.yml ..\..\action_picture\src\main\resources\
+copy .\conf\local\action_picture\bootstrap.yml ..\..\action_picture\src\main\resources\
 
 
-echo ###### copy mogu_search ########
-copy .\conf\local\mogu_search\application.yml ..\..\mogu_search\src\main\resources\
-copy .\conf\local\mogu_search\bootstrap.yml ..\..\mogu_search\src\main\resources\
+echo ###### copy action_search ########
+copy .\conf\local\action_search\application.yml ..\..\action_search\src\main\resources\
+copy .\conf\local\action_search\bootstrap.yml ..\..\action_search\src\main\resources\
 
 
-echo ###### copy mogu_sms ########
-copy .\conf\local\mogu_sms\application.yml ..\..\mogu_sms\src\main\resources\
-copy .\conf\local\mogu_sms\bootstrap.yml ..\..\mogu_sms\src\main\resources\
+echo ###### copy action_sms ########
+copy .\conf\local\action_sms\application.yml ..\..\action_sms\src\main\resources\
+copy .\conf\local\action_sms\bootstrap.yml ..\..\action_sms\src\main\resources\
 
 
-echo ###### copy mogu_spider ########
-copy .\conf\local\mogu_spider\application.yml ..\..\mogu_spider\src\main\resources\
-copy .\conf\local\mogu_spider\bootstrap.yml ..\..\mogu_spider\src\main\resources\
+echo ###### copy action_spider ########
+copy .\conf\local\action_spider\application.yml ..\..\action_spider\src\main\resources\
+copy .\conf\local\action_spider\bootstrap.yml ..\..\action_spider\src\main\resources\
 
 
-echo ###### copy mogu_web ########
-copy .\conf\local\mogu_web\application.yml ..\..\mogu_web\src\main\resources\
-copy .\conf\local\mogu_web\bootstrap.yml ..\..\mogu_web\src\main\resources\
+echo ###### copy action_web ########
+copy .\conf\local\action_web\application.yml ..\..\action_web\src\main\resources\
+copy .\conf\local\action_web\bootstrap.yml ..\..\action_web\src\main\resources\

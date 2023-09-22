@@ -7,8 +7,8 @@ services:
     ports:
       - 8070:8070
     networks:
-      - mogu
+      - action
 
 networks:
-  mogu:
+  action:
     external: true

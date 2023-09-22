@@ -82,10 +82,17 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>1.2.0</version>
                 <configuration>
+                    <!-- 远程Docker的地址 -->
+                    <dockerHost>http://106.55.99.240:2375</dockerHost>
                     <!-- 注意imageName一定要是符合正则[a-z0-9-_.]的，否则构建不会成功 -->
-                    <imageName>registry.cn-shenzhen.aliyuncs.com/actionblog/${project.artifactId}</imageName>
+                    <imageName>${docker.repostory}/${docker.registry.name}/${project.artifactId}:${project.version}</imageName>
                     <dockerDirectory>${project.basedir}/src/main/resources</dockerDirectory>
                     <rm>true</rm>
+
+                    <!--        推送至阿里云Docker仓库            -->
+                    <serverId>docker-aliyun</serverId>
+                    <registryUrl>${docker.repostory}</registryUrl>
+                    <pushImage>true</pushImage>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>

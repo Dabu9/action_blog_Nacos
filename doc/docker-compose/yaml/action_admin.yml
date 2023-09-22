@@ -1,0 +1,19 @@
+version: '3'
+services:
+  #授权服务
+  action_admin:
+    image: registry.cn-chengdu.aliyuncs.com/actionblog/action_admin:latest
+    container_name: action_admin
+    restart: always
+    ports:
+      - 8601:8601
+    networks:
+      - action
+    environment:
+      - COMPOSE_PROJECT_NAME=action_admin
+    volumes:
+      - ../log/:/logs/
+      - ../config/action_admin/:/config/
+networks:
+  action:
+    external: true

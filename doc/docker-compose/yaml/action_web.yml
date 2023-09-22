@@ -1,0 +1,19 @@
+version: '3'
+services:
+  #授权服务
+  action_web:
+    image: registry.cn-chengdu.aliyuncs.com/actionblog/action_web:latest
+    container_name: action_web
+    restart: always
+    ports:
+      - 8603:8603
+    networks:
+      - action
+    environment:
+      - COMPOSE_PROJECT_NAME=action_web
+    volumes:
+      - ../log/:/logs/
+      - ../config/action_web/:/config/
+networks:
+  action:
+    external: true

@@ -70,7 +70,7 @@ echo "############判断是否安装了docker-compose##############"
 if ! type docker-compose >/dev/null 2>&1; then
     echo 'docker-compose 未安装';
 	echo '开始安装docker-compose....';		
-	wget http://oss.moguit.cn/script/docker-compose-Linux-x86_64
+	wget http://oss.actionit.cn/script/docker-compose-Linux-x86_64
 	mv docker-compose-Linux-x86_64  docker-compose
 	chmod +x docker-compose
 	mv docker-compose /usr/local/bin/
@@ -93,10 +93,10 @@ fi
 
 
 echo '创建docker网络';
-docker network create mogu
+docker network create action
 
 echo '正在拉取一键部署脚本';
-wget http://oss.moguit.cn/script/docker-compose.zip
+wget http://oss.actionit.cn/script/docker-compose.zip
 
 
 unzip docker-compose.zip
@@ -119,12 +119,12 @@ cd bin
 echo "修改编码...."
 dos2unix kernStartup.sh
 dos2unix kernShutdown.sh
-dos2unix moguGoStartup.sh
-dos2unix moguGoShutdown.sh
+dos2unix actionGoStartup.sh
+dos2unix actionGoShutdown.sh
 dos2unix update.sh
 dos2unix wait-for-it.sh
 
 # 执行脚本
 python2 replaceIp.py
 
-sh moguGoStartup.sh
+sh actionGoStartup.sh

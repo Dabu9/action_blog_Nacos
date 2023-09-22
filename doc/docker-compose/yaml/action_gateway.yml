@@ -1,0 +1,19 @@
+version: '3'
+services:
+  #授权服务
+  action_gateway:
+    image: registry.cn-chengdu.aliyuncs.com/actionblog/action_gateway:latest
+    container_name: action_gateway
+    restart: always
+    ports:
+      - 8607:8607
+    networks:
+      - action
+    environment:
+      - COMPOSE_PROJECT_NAME=action_gateway
+    volumes:
+    - ../log/:/logs/
+    - ../config/action_gateway/:/config/
+networks:
+  action:
+    external: true

@@ -13,8 +13,8 @@ services:
     ports:
       - 9411:9411
     networks:
-      - mogu
+      - action
 
 networks:
-  mogu:
+  action:
     external: true

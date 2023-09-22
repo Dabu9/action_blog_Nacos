@@ -13,8 +13,8 @@ services:
       - "9555:9555"
     restart: always
     networks:
-      - mogu
+      - action
       
 networks:
-  mogu:
+  action:
     external: true

@@ -1,0 +1,19 @@
+version: '3'
+services:
+  #授权服务
+  action_search:
+    image: registry.cn-chengdu.aliyuncs.com/actionblog/action_search:latest
+    container_name: action_search
+    restart: always
+    ports:
+      - 8605:8605
+    networks:
+      - action
+    environment:
+      - COMPOSE_PROJECT_NAME=action_search
+    volumes:
+      - ../log/:/logs/
+      - ../config/action_search/:/config/
+networks:
+  action:
+    external: true

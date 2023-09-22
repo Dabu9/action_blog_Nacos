@@ -1,0 +1,19 @@
+version: '3'
+services:
+  #授权服务
+  action_sms:
+    image: registry.cn-chengdu.aliyuncs.com/actionblog/action_sms:latest
+    container_name: action_sms
+    restart: always
+    ports:
+      - 8604:8604
+    networks:
+      - action
+    environment:
+      - COMPOSE_PROJECT_NAME=action_sms
+    volumes:
+      - ../log/:/logs/
+      - ../config/action_sms/:/config/
+networks:
+  action:
+    external: true
