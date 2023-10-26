@@ -12,10 +12,10 @@ spring:
       password: nacos
 
       discovery:
-        server-addr: nacos:8848
+        server-addr: 106.55.99.240:8848
         namespace: prod
       config:
-        server-addr: nacos:8848
+        server-addr: 106.55.99.240:8848
         file-extension: yaml
         #指定分组
         group: prod
@@ -51,27 +51,27 @@ spring:
             # 前缀过滤，默认配置下，我们的请求路径是 http://localhost:8888/business-oauth2/** 这时会路由到指定的服务
             # 此处配置去掉 1 个路径前缀，再配置上面的 Path=/api/**，就能按照 http://localhost:8888/api/** 的方式访问了
             - StripPrefix=1
-        - id: action_web
-          uri: lb://action-web
+        - id: mogu_web
+          uri: lb://mogu-web
           predicates:
-            - Path=/action-web/**
+            - Path=/mogu-web/**
           filters:
             - StripPrefix=1
-        - id: action_search
-          uri: lb://action-search
+        - id: mogu_search
+          uri: lb://mogu-search
           predicates:
-            - Path=/action-search/**
+            - Path=/mogu-search/**
           filters:
             - StripPrefix=1
-        - id: action_picture
-          uri: lb://action-picture
+        - id: mogu_picture
+          uri: lb://mogu-picture
           predicates:
-            - Path=/action-picture/**
+            - Path=/mogu-picture/**
           filters:
             - StripPrefix=1
-        - id: action_monitor
-          uri: lb://action-monitor
+        - id: mogu_monitor
+          uri: lb://mogu-monitor
           predicates:
-            - Path=/action-monitor/**
+            - Path=/mogu-monitor/**
           filters:
             - StripPrefix=1

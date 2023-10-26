@@ -15,10 +15,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- * 系统配置表 RestApi
- *
- * @author 陌溪
- * @date 2020年1月21日09:24:37
+ * @author Dabu9
+ * @Date 2023/10/24 9:39
+ * 系统配置
  */
 @Api(value = "系统配置相关接口", tags = {"系统配置相关接口"})
 @RestController

@@ -1,10 +1,9 @@
 package com.damaha.actionblog.base.global;
 
 /**
- * 字符常量
- *
- * @author: 陌溪
- * @date: 2019年12月4日22:47:53
+ * @author Dabu9
+ * @Date 2023/10/24 10:11
+ * 
  */
 public class Constants {
 

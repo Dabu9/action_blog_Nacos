@@ -6,10 +6,10 @@ import com.damaha.actionblog.base.vo.BaseVO;
 import lombok.Data;
 
 /**
- * CommentVO
+ * @author Dabu9
+ * @Date 2023/10/23 21:02
  *
- * @author: 陌溪
- * @create: 2020年1月11日16:15:52
+ * 网盘
  */
 @Data
 public class NetworkDiskVO extends BaseVO<NetworkDiskVO> {

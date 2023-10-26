@@ -7,10 +7,9 @@ import com.damaha.actionblog.base.service.SuperService;
 import java.util.List;
 
 /**
- * 系统配置表 服务类
- *
- * @author 陌溪
- * @datge 2020年1月21日09:05:53
+ * @author Dabu9
+ * @Date 2023/10/24 9:39
+ * 
  */
 public interface SystemConfigService extends SuperService<SystemConfig> {
 

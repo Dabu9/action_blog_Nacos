@@ -87,44 +87,14 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot-dependencies.version}</version>
-                <configuration>
-                    <!-- 指定该Main Class为全局的唯一入口 -->
-                    <mainClass>com.damaha.actionblog.admin.AdminApplication</mainClass>
-                    <layout>ZIP</layout>
-                </configuration>
                 <executions>
                     <execution>
+                        <id>repackage</id>
                         <goals>
                             <goal>repackage</goal><!--可以把依赖的包都打包到生成的Jar包中-->
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-            <!--docker镜像build插件-->
-            <plugin>
-                <groupId>com.spotify</groupId>
-                <artifactId>docker-maven-plugin</artifactId>
-                <version>1.2.0</version>
-                <configuration>
-                    <!-- 远程Docker的地址 -->
-                    <dockerHost>http://106.55.99.240:2375</dockerHost>
-                    <!-- 注意imageName一定要是符合正则[a-z0-9-_.]的，否则构建不会成功 -->
-                    <imageName>${docker.repostory}/${docker.registry.name}/${project.artifactId}:${project.version}</imageName>
-                    <dockerDirectory>${project.basedir}/src/main/resources</dockerDirectory>
-                    <rm>true</rm>
-
-                    <!--        推送至阿里云Docker仓库            -->
-                    <serverId>docker-aliyun</serverId>
-                    <registryUrl>${docker.repostory}</registryUrl>
-                    <pushImage>true</pushImage>
-                    <resources>
-                        <resource>
-                            <targetPath>/</targetPath>
-                            <directory>${project.build.directory}</directory>
-                            <include>${project.build.finalName}.jar</include>
-                        </resource>
-                    </resources>
-                </configuration>
             </plugin>
         </plugins>
     </build>

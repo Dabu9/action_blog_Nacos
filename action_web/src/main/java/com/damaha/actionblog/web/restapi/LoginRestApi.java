@@ -154,7 +154,7 @@ public class LoginRestApi {
         user.setNickName(userVO.getNickName());
         user.setPassWord(MD5Utils.string2MD5(userVO.getPassWord()));
         user.setEmail(userVO.getEmail());
-        // 设置账号来源，蘑菇博客
+        // 设置账号来源，阿盛博客
         user.setSource(SysConf.ACTION);
         user.setLastLoginIp(ip);
         user.setBrowser(map.get(SysConf.BROWSER));
@@ -165,6 +165,7 @@ public class LoginRestApi {
         String openEmailActivate = systemConfig.getOpenEmailActivate();
         String resultMessage = "注册成功";
         if (EOpenStatus.OPEN.equals(openEmailActivate)) {
+            // 如果开启了用户邮件激活，那么现将该用户的状态设为冻结状态
             user.setStatus(EStatus.FREEZE);
         } else {
             // 未开启注册用户邮件激活，直接设置成激活状态

@@ -52,11 +52,13 @@ public class SystemConfigServiceImpl extends SuperServiceImpl<SystemConfigMapper
     public SystemConfig getConfig() {
         // 从Redis中获取系统配置
         String systemConfigJson = redisUtil.get(RedisConf.SYSTEM_CONFIG);
-        if(StringUtils.isEmpty(systemConfigJson)) {
+        if(StringUtils.isEmpty(systemConfigJson)) {  // 如果redis中查询不到就在数据库中查询
             QueryWrapper<SystemConfig> queryWrapper = new QueryWrapper<>();
             queryWrapper.orderByDesc(SQLConf.CREATE_TIME);
             queryWrapper.eq(SQLConf.STATUS, EStatus.ENABLE);
             queryWrapper.last(SysConf.LIMIT_ONE);
+            // 调用getOne查表，由于systemConfigService实现了SuperService<SystemConfig>，即传入的实体类是SystemConfig
+            // 而其对应的表名被定义为了t_system_config，因此该配置是放在该表中的
             SystemConfig systemConfig = systemConfigService.getOne(queryWrapper);
             if (systemConfig == null) {
                 throw new QueryException(MessageConf.SYSTEM_CONFIG_IS_NOT_EXIST);

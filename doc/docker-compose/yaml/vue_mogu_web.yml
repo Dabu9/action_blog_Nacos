@@ -10,7 +10,7 @@ services:
     networks:
       - action
     env_file:
-      - ../config/vue_action_web.env
+      - ../../config/vue_action_web.env
     environment:
       - COMPOSE_PROJECT_NAME=vue_action_web
 networks:

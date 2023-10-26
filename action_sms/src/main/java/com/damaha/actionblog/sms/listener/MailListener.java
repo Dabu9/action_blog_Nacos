@@ -21,6 +21,10 @@ public class MailListener {
     @Autowired
     private SendMailUtils sendMailUtils;
 
+    /**
+     * 如果队列action.email中存在数据，那么将调用下面的方法进行处理
+     * @param map
+     */
     @RabbitListener(queues = "action.email")
     public void sendMail(Map<String, String> map) {
         if (map != null) {

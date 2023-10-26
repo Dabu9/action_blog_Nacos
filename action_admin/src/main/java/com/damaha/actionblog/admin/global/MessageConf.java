@@ -3,10 +3,9 @@ package com.damaha.actionblog.admin.global;
 import com.damaha.actionblog.base.global.BaseMessageConf;
 
 /**
- * 消息通知
+ * @author Dabu9
+ * @Date 2023/10/24 9:30
  *
- * @author 陌溪_
- * @date 2019年12月29日20:20:14
  */
 public final class MessageConf extends BaseMessageConf {
 

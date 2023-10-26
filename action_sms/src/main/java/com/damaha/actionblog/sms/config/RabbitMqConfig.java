@@ -12,11 +12,13 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class RabbitMqConfig {
-
+    // 队列
     public static final String ACTION_BLOG = "action.blog";
     public static final String ACTION_EMAIL = "action.email";
     public static final String ACTION_SMS = "action.sms";
+    // 交换机
     public static final String EXCHANGE_DIRECT = "exchange.direct";
+    // Key
     public static final String ROUTING_KEY_BLOG = "action.blog";
     public static final String ROUTING_KEY_EMAIL = "action.email";
     public static final String ROUTING_KEY_SMS = "action.sms";
@@ -27,7 +29,10 @@ public class RabbitMqConfig {
     @Bean(EXCHANGE_DIRECT)
     public Exchange EXCHANGE_DIRECT() {
         // 声明路由交换机，durable:在rabbitmq重启后，交换机还在
-        return ExchangeBuilder.directExchange(EXCHANGE_DIRECT).durable(true).build();
+        return ExchangeBuilder
+                .directExchange(EXCHANGE_DIRECT)
+                .durable(true)
+                .build();
     }
 
     /**
@@ -68,8 +73,15 @@ public class RabbitMqConfig {
      * @return
      */
     @Bean
-    public Binding BINDING_QUEUE_INFORM_BLOG(@Qualifier(ACTION_BLOG) Queue queue, @Qualifier(EXCHANGE_DIRECT) Exchange exchange) {
-        return BindingBuilder.bind(queue).to(exchange).with(ROUTING_KEY_BLOG).noargs();
+    public Binding BINDING_QUEUE_INFORM_BLOG(
+            @Qualifier(ACTION_BLOG) Queue queue,
+            @Qualifier(EXCHANGE_DIRECT) Exchange exchange
+    ) {
+        return BindingBuilder
+                .bind(queue)
+                .to(exchange)
+                .with(ROUTING_KEY_BLOG)
+                .noargs();
     }
 
     /**
@@ -80,8 +92,15 @@ public class RabbitMqConfig {
      * @return
      */
     @Bean
-    public Binding BINDING_QUEUE_INFORM_EMAIL(@Qualifier(ACTION_EMAIL) Queue queue, @Qualifier(EXCHANGE_DIRECT) Exchange exchange) {
-        return BindingBuilder.bind(queue).to(exchange).with(ROUTING_KEY_EMAIL).noargs();
+    public Binding BINDING_QUEUE_INFORM_EMAIL(
+            @Qualifier(ACTION_EMAIL) Queue queue,
+            @Qualifier(EXCHANGE_DIRECT) Exchange exchange
+    ) {
+        return BindingBuilder
+                .bind(queue)
+                .to(exchange)
+                .with(ROUTING_KEY_EMAIL)
+                .noargs();
     }
 
     /**
@@ -92,8 +111,15 @@ public class RabbitMqConfig {
      * @return
      */
     @Bean
-    public Binding BINDING_QUEUE_INFORM_SMS(@Qualifier(ACTION_SMS) Queue queue, @Qualifier(EXCHANGE_DIRECT) Exchange exchange) {
-        return BindingBuilder.bind(queue).to(exchange).with(ROUTING_KEY_SMS).noargs();
+    public Binding BINDING_QUEUE_INFORM_SMS(
+            @Qualifier(ACTION_SMS) Queue queue,
+            @Qualifier(EXCHANGE_DIRECT) Exchange exchange
+    ) {
+        return BindingBuilder
+                .bind(queue)
+                .to(exchange)
+                .with(ROUTING_KEY_SMS)
+                .noargs();
     }
 
     @Bean

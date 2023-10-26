@@ -6,10 +6,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * RabbitMQ配置类
+ * @author Dabu9
+ * @Date 2023/10/24 9:30
  *
- * @author 陌溪
- * @date 2020年12月31日21:26:43
  */
 @Configuration
 public class RabbitMqConfig {

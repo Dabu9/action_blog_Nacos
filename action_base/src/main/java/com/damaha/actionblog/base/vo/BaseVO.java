@@ -5,11 +5,11 @@ import com.damaha.actionblog.base.validator.group.Delete;
 import com.damaha.actionblog.base.validator.group.Update;
 import lombok.Data;
 
+
 /**
- * BaseVO   view object 表现层 基类对象
- *
- * @author: 陌溪
- * @create: 2019-12-03-22:38
+ * @author Dabu9
+ * @Date 2023/10/23 21:04
+ * view object 表现层 基类对象
  */
 @Data
 public class BaseVO<T> extends PageInfo<T> {

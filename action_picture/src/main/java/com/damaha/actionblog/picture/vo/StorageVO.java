@@ -4,10 +4,9 @@ import com.damaha.actionblog.base.vo.BaseVO;
 import lombok.Data;
 
 /**
- * CommentVO
- *
- * @author: 陌溪
- * @create: 2020年1月11日16:15:52
+ * @author Dabu9
+ * @Date 2023/10/23 21:09
+ * 
  */
 @Data
 public class StorageVO extends BaseVO<StorageVO> {

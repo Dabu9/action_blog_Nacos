@@ -1,0 +1,9 @@
+# 基础镜像
+FROM openjdk:8-jdk-alpine
+MAINTAINER jsl damaha666@163.com
+# 指定工作目录
+WORKDIR /app
+VOLUME /tmp
+EXPOSE 8601
+ADD target/action_admin-0.0.1-SNAPSHOT.jar .
+ENTRYPOINT ["java","-Xms256m","-Xmx256m","-jar","/app/action_admin-0.0.1-SNAPSHOT.jar","--spring.profiles.active=prod"]

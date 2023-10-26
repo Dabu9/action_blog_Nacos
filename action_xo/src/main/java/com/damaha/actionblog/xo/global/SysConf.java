@@ -3,10 +3,9 @@ package com.damaha.actionblog.xo.global;
 import com.damaha.actionblog.base.global.BaseSysConf;
 
 /**
- * 系统常量
- *
- * @author xzx19950624@qq.com
- * @date 2018年10月20日15:13:20
+ * @author Dabu9
+ * @Date 2023/10/24 9:34
+ * 
  */
 public final class SysConf extends BaseSysConf {
 
