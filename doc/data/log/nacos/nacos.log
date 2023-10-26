@@ -1,0 +1,2046 @@
+2023-10-26 11:41:36,635 INFO Starting Nacos v2.0.2 on 9ed64a24ec2e with PID 1 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2023-10-26 11:41:36,656 INFO The following profiles are active: standalone
+
+2023-10-26 11:41:40,387 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3b0f7d9d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-26 11:41:40,393 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-26 11:41:40,708 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-10-26 11:41:40,738 INFO Starting service [Tomcat]
+
+2023-10-26 11:41:40,738 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2023-10-26 11:41:41,068 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2023-10-26 11:41:41,098 INFO Initializing Spring embedded WebApplicationContext
+
+2023-10-26 11:41:41,099 INFO Root WebApplicationContext: initialization completed in 4369 ms
+
+2023-10-26 11:41:41,345 INFO HikariPool-1 - Starting...
+
+2023-10-26 11:41:41,528 INFO HikariPool-1 - Start completed.
+
+2023-10-26 11:41:42,014 INFO Nacos-related cluster resource initialization
+
+2023-10-26 11:41:42,032 INFO The cluster resource is initialized
+
+2023-10-26 11:41:42,638 INFO Reflections took 31 ms to scan 1 urls, producing 5 keys and 10 values 
+
+2023-10-26 11:41:42,669 INFO Reflections took 4 ms to scan 1 urls, producing 4 keys and 23 values 
+
+2023-10-26 11:41:42,679 INFO Reflections took 3 ms to scan 1 urls, producing 5 keys and 19 values 
+
+2023-10-26 11:41:42,686 INFO Reflections took 1 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2023-10-26 11:41:43,111 INFO Reflections took 18 ms to scan 2 urls, producing 3 keys and 6 values 
+
+2023-10-26 11:41:43,131 INFO Reflections took 17 ms to scan 2 urls, producing 4 keys and 9 values 
+
+2023-10-26 11:41:43,328 INFO Reflections took 196 ms to scan 2 urls, producing 3 keys and 10 values 
+
+2023-10-26 11:41:43,331 INFO Reflections took 1 ms to scan 1 urls, producing 2 keys and 2 values 
+
+2023-10-26 11:41:43,348 INFO Reflections took 16 ms to scan 2 urls, producing 1 keys and 5 values 
+
+2023-10-26 11:41:43,366 INFO Reflections took 16 ms to scan 2 urls, producing 1 keys and 7 values 
+
+2023-10-26 11:41:43,384 INFO Reflections took 16 ms to scan 2 urls, producing 2 keys and 8 values 
+
+2023-10-26 11:41:43,387 INFO Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values 
+
+2023-10-26 11:41:45,268 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2023-10-26 11:41:45,418 INFO Adding welcome page: class path resource [static/index.html]
+
+2023-10-26 11:41:46,336 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2023-10-26 11:41:46,371 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ac20bb4, org.springframework.security.web.context.SecurityContextPersistenceFilter@383864d5, org.springframework.security.web.header.HeaderWriterFilter@3cbf1ba4, org.springframework.security.web.csrf.CsrfFilter@19962194, org.springframework.security.web.authentication.logout.LogoutFilter@65c86db8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4cb40e3b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47b67fcb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a2bd7c8, org.springframework.security.web.session.SessionManagementFilter@7e2c64, org.springframework.security.web.access.ExceptionTranslationFilter@7c8f9c2e]
+
+2023-10-26 11:41:46,462 INFO Initializing ExecutorService 'taskScheduler'
+
+2023-10-26 11:41:46,495 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2023-10-26 11:41:46,628 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2023-10-26 11:41:46,632 INFO Started Nacos in 12.018 seconds (JVM running for 12.807)
+
+2023-10-26 11:41:46,633 INFO Nacos started successfully in stand alone mode. use external storage
+
+2023-10-26 11:47:51,675 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a12eaca (Server shutdown in progress). Possibly consider using a shorter maxLifetime value.
+
+2023-10-26 11:47:51,677 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@13956873 (Server shutdown in progress). Possibly consider using a shorter maxLifetime value.
+
+2023-10-26 11:47:56,390 WARN [NotifyCenter] Start destroying Publisher
+
+2023-10-26 11:47:56,391 WARN [HttpClientBeanHolder] Start destroying common HttpClient
+
+2023-10-26 11:47:56,392 WARN [ConfigServer-HttpClientManager] Start destroying NacosRestTemplate
+
+2023-10-26 11:47:56,391 WARN [WatchFileCenter] start close
+
+2023-10-26 11:47:56,391 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2023-10-26 11:47:56,392 WARN [NotifyCenter] Destruction of the end
+
+2023-10-26 11:47:56,396 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/data/tps
+
+2023-10-26 11:47:56,398 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/conf
+
+2023-10-26 11:47:56,402 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/data/loader
+
+2023-10-26 11:47:56,402 WARN [WatchFileCenter] already closed
+
+2023-10-26 11:47:56,405 INFO Shutting down ExecutorService 'taskScheduler'
+
+2023-10-26 11:47:56,406 WARN [ConfigServer-HttpClientManager] Destruction of the end
+
+2023-10-26 11:47:56,406 WARN [HttpClientBeanHolder] Destruction of the end
+
+2023-10-26 11:47:56,409 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2023-10-26 11:47:58,507 WARN [ThreadPoolManager] Destruction of the end
+
+2023-10-26 11:48:13,119 INFO Starting Nacos v2.0.2 on 9ed64a24ec2e with PID 1 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2023-10-26 11:48:13,121 INFO The following profiles are active: standalone
+
+2023-10-26 11:48:16,920 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@71b1a49c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-26 11:48:16,929 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-26 11:48:17,243 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-10-26 11:48:17,382 INFO Starting service [Tomcat]
+
+2023-10-26 11:48:17,382 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2023-10-26 11:48:17,565 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2023-10-26 11:48:17,595 INFO Initializing Spring embedded WebApplicationContext
+
+2023-10-26 11:48:17,595 INFO Root WebApplicationContext: initialization completed in 4367 ms
+
+2023-10-26 11:48:18,018 INFO HikariPool-1 - Starting...
+
+2023-10-26 11:48:18,179 INFO HikariPool-1 - Start completed.
+
+2023-10-26 11:48:18,448 INFO Nacos-related cluster resource initialization
+
+2023-10-26 11:48:18,458 INFO The cluster resource is initialized
+
+2023-10-26 11:48:19,021 INFO Reflections took 26 ms to scan 1 urls, producing 5 keys and 10 values 
+
+2023-10-26 11:48:19,047 INFO Reflections took 4 ms to scan 1 urls, producing 4 keys and 23 values 
+
+2023-10-26 11:48:19,059 INFO Reflections took 3 ms to scan 1 urls, producing 5 keys and 19 values 
+
+2023-10-26 11:48:19,067 INFO Reflections took 1 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2023-10-26 11:48:19,619 INFO Reflections took 188 ms to scan 2 urls, producing 3 keys and 6 values 
+
+2023-10-26 11:48:19,646 INFO Reflections took 24 ms to scan 2 urls, producing 4 keys and 9 values 
+
+2023-10-26 11:48:19,664 INFO Reflections took 17 ms to scan 2 urls, producing 3 keys and 10 values 
+
+2023-10-26 11:48:19,667 INFO Reflections took 1 ms to scan 1 urls, producing 2 keys and 2 values 
+
+2023-10-26 11:48:19,684 INFO Reflections took 15 ms to scan 2 urls, producing 1 keys and 5 values 
+
+2023-10-26 11:48:19,702 INFO Reflections took 16 ms to scan 2 urls, producing 1 keys and 7 values 
+
+2023-10-26 11:48:19,720 INFO Reflections took 15 ms to scan 2 urls, producing 2 keys and 8 values 
+
+2023-10-26 11:48:19,722 INFO Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values 
+
+2023-10-26 11:48:21,488 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2023-10-26 11:48:21,833 INFO Adding welcome page: class path resource [static/index.html]
+
+2023-10-26 11:48:22,490 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2023-10-26 11:48:22,515 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@140d1230, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c6366cf, org.springframework.security.web.header.HeaderWriterFilter@1daf3b44, org.springframework.security.web.csrf.CsrfFilter@1a6cf771, org.springframework.security.web.authentication.logout.LogoutFilter@481e91b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18acfe88, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6631cb64, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cbf1ba4, org.springframework.security.web.session.SessionManagementFilter@44c13103, org.springframework.security.web.access.ExceptionTranslationFilter@53ed09e8]
+
+2023-10-26 11:48:22,617 INFO Initializing ExecutorService 'taskScheduler'
+
+2023-10-26 11:48:22,644 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2023-10-26 11:48:22,763 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2023-10-26 11:48:22,768 INFO Started Nacos in 11.173 seconds (JVM running for 11.634)
+
+2023-10-26 11:48:22,769 INFO Nacos started successfully in stand alone mode. use external storage
+
+2023-10-26 11:58:19,291 WARN clearConfigHistory start
+
+2023-10-26 11:58:19,317 INFO [capacityManagement] start correct usage
+
+2023-10-26 11:58:19,337 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 12:08:19,302 WARN clearConfigHistory start
+
+2023-10-26 12:08:19,338 INFO [capacityManagement] start correct usage
+
+2023-10-26 12:08:19,342 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 12:18:19,305 WARN clearConfigHistory start
+
+2023-10-26 12:18:19,342 INFO [capacityManagement] start correct usage
+
+2023-10-26 12:18:19,345 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 12:28:19,308 WARN clearConfigHistory start
+
+2023-10-26 12:28:19,346 INFO [capacityManagement] start correct usage
+
+2023-10-26 12:28:19,350 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 12:38:19,311 WARN clearConfigHistory start
+
+2023-10-26 12:38:19,350 INFO [capacityManagement] start correct usage
+
+2023-10-26 12:38:19,354 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 12:48:19,314 WARN clearConfigHistory start
+
+2023-10-26 12:48:19,355 INFO [capacityManagement] start correct usage
+
+2023-10-26 12:48:19,358 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 12:58:19,318 WARN clearConfigHistory start
+
+2023-10-26 12:58:19,360 INFO [capacityManagement] start correct usage
+
+2023-10-26 12:58:19,364 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 13:08:19,320 WARN clearConfigHistory start
+
+2023-10-26 13:08:19,365 INFO [capacityManagement] start correct usage
+
+2023-10-26 13:08:19,369 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 13:18:19,321 WARN clearConfigHistory start
+
+2023-10-26 13:18:19,367 INFO [capacityManagement] start correct usage
+
+2023-10-26 13:18:19,371 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 13:28:19,323 WARN clearConfigHistory start
+
+2023-10-26 13:28:19,371 INFO [capacityManagement] start correct usage
+
+2023-10-26 13:28:19,375 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 13:38:19,324 WARN clearConfigHistory start
+
+2023-10-26 13:38:19,375 INFO [capacityManagement] start correct usage
+
+2023-10-26 13:38:19,378 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 13:48:19,327 WARN clearConfigHistory start
+
+2023-10-26 13:48:19,379 INFO [capacityManagement] start correct usage
+
+2023-10-26 13:48:19,382 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 13:58:19,328 WARN clearConfigHistory start
+
+2023-10-26 13:58:19,382 INFO [capacityManagement] start correct usage
+
+2023-10-26 13:58:19,385 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 14:08:19,330 WARN clearConfigHistory start
+
+2023-10-26 14:08:19,387 INFO [capacityManagement] start correct usage
+
+2023-10-26 14:08:19,390 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 14:18:19,333 WARN clearConfigHistory start
+
+2023-10-26 14:18:19,390 INFO [capacityManagement] start correct usage
+
+2023-10-26 14:18:19,394 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 14:28:19,333 WARN clearConfigHistory start
+
+2023-10-26 14:28:19,393 INFO [capacityManagement] start correct usage
+
+2023-10-26 14:28:19,395 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 14:38:19,335 WARN clearConfigHistory start
+
+2023-10-26 14:38:19,395 INFO [capacityManagement] start correct usage
+
+2023-10-26 14:38:19,397 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 14:48:19,338 WARN clearConfigHistory start
+
+2023-10-26 14:48:19,396 INFO [capacityManagement] start correct usage
+
+2023-10-26 14:48:19,398 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 14:48:58,317 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-10-26 14:48:58,319 INFO Initializing Servlet 'dispatcherServlet'
+
+2023-10-26 14:48:58,358 INFO Completed initialization in 38 ms
+
+2023-10-26 14:49:51,987 INFO A cookie header was received [name":"首页","navbarLevel":1,"summary":"首页","icon":"el-icon-remove","url":"/","sort":7,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"e186d3225e1405a0ee73995347b1c239","status":1,"createTime":"2021-02-23 13:17:30","updateTime":"2021-02-23 17:05:31"},{"name":"关于我","navbarLevel":1,"summary":"关于我","icon":"el-icon-user","url":"/about","sort":6,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"c3e10b3c8d576ed24387934d5d0c0b81","status":1,"createTime":"2021-02-23 13:18:43","updateTime":"2021-02-23 18:06:14"},{"name":"归档","navbarLevel":1,"summary":"归档","icon":"el-icon-camera","url":"/sort","sort":5,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"55bca78a37694c5a72b2910adde12d96","status":1,"createTime":"2021-02-23 13:19:11","updateTime":"2021-02-23 15:30:37"},{"name":"分类","navbarLevel":1,"summary":"博客分类","icon":"el-icon-folder-checked","url":"/classify","sort":4,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"abe6c960aa65fba7f728480fd933807f","status":1,"createTime":"2021-02-23 13:19:38","updateTime":"2021-02-23 15:30:43"},{"name":"标签","navbarLevel":1,"summary":"博客标签","icon":"el-icon-headset","url":"/tag","sort":3,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"0de9cfa4227c80530e43c534712156f5","status":1,"createTime":"2021-02-23 13:20:01","updateTime":"2021-02-23 15:30:47"},{"name":"专题","navbarLevel":1,"summary":"博客专题","icon":"el-icon-data-analysis","url":"/subject","sort":2,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"40277498960cfc2fb428c1ee4429676c","status":1,"createTime":"2021-02-23 13:20:22","updateTime":"2021-02-23 15:30:50"},{"name":"留言板","navbarLevel":1,"summary":"留言板","icon":"el-icon-money","url":"/messageBoard","sort":1,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"0d8a13137502ed28649888cfea40ee80","status":1,"createTime":"2021-02-23 13:20:47","updateTime":"2021-02-23 15:30:53"},{"name":"博客源码","navbarLevel":1,"summary":"博客源码","icon":"el-icon-zoom-in","url":"https://gitee.com/moxi159753/action_blog_v2","sort":0,"isShow":1,"isJumpExternalUrl":1,"childWebNavbar":[{"name":"博客源码","navbarLevel":2,"summary":"阿盛博客源码","icon":"el-icon-tickets","parentUid":"94d59134ab64aac6d7994c80c6698f8a","url":"https://gitee.com/moxi159753/action_blog_v2","sort":0,"isShow":1,"isJumpExternalUrl":1,"uid":"51f9db7329ccd382255c01f4ef371108","status":1,"createTime":"2021-02-27 13:06:13","updateTime":"2021-02-27 13:06:13"},{"name":"学习笔记","navbarLevel":2,"summary":"学习笔记","icon":"el-icon-folder-opened","parentUid":"94d59134ab64aac6d7994c80c6698f8a","url":"https://gitee.com/moxi159753/LearningNotes","sort":0,"isShow":1,"isJumpExternalUrl":1,"uid":"25bdfd2a854ea4af1bf1adcd676a711b","status":1,"createTime":"2021-02-27 12:43:40","updateTime":"2021-02-27 12:43:40"}],"uid":"94d59134ab64aac6d7994c80c6698f8a","status":1,"createTime":"2021-02-23 18:07:24","updateTime":"2021-02-27 13:05:34"},{"name":"博客详情","navbarLevel":1,"summary":"博客详情页","icon":"el-icon-user","url":"/info","sort":0,"isShow":0,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"a26eb81119b47bb34f733c4c38432021","status":1,"createTime":"2021-02-23 18:40:54","updateTime":"2021-02-23 18:40:54"},{"name":"博客列表","navbarLevel":1,"summary":"博客列表","icon":"el-icon-picture-outline-round","url":"/list","sort":0,"isShow":0,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"7fb0684401ff99073c64dc956a9cb28a","status":1,"createTime":"2021-02-23 18:57:19","updateTime":"2021-02-23 18:57:19"}]; Admin-Token=bearer_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhZG1pblVpZCI6IjFmMDFjZDFkMmY0NzQ3NDNiMjQxZDc0MDA4YjEyMzMzIiwicm9sZSI6Im51bGzotoXnuqfnrqHnkIYiLCJjcmVhdGVUaW1lIjoxNjk4MjgxODcwMjA3LCJzdWIiOiJhZG1pbiIsImlzcyI6ImFjdGlvbmJsb2ciLCJhdWQiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImV4cCI6MTY5ODI4NTQ3MCwibmJmIjoxNjk4MjgxODcwfQ.8IbjUqy_lFM3_0foVNypp2ThOetkxQVWaX10wuWcOY4; token=aacfa951a9554134bed22a4e9fc3c66e] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+
+2023-10-26 14:59:25,791 INFO Starting Nacos v2.0.2 on 9ed64a24ec2e with PID 1 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2023-10-26 14:59:25,793 INFO The following profiles are active: standalone
+
+2023-10-26 14:59:42,272 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3b0f7d9d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-26 14:59:42,292 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-26 14:59:44,899 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-10-26 14:59:45,136 INFO Starting service [Tomcat]
+
+2023-10-26 14:59:45,154 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2023-10-26 14:59:46,415 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2023-10-26 14:59:46,539 INFO Initializing Spring embedded WebApplicationContext
+
+2023-10-26 14:59:46,540 INFO Root WebApplicationContext: initialization completed in 20482 ms
+
+2023-10-26 14:59:48,959 INFO HikariPool-1 - Starting...
+
+2023-10-26 14:59:50,504 INFO HikariPool-1 - Start completed.
+
+2023-10-26 14:59:52,714 INFO Nacos-related cluster resource initialization
+
+2023-10-26 14:59:52,794 INFO The cluster resource is initialized
+
+2023-10-26 14:59:55,472 INFO Reflections took 149 ms to scan 1 urls, producing 5 keys and 10 values 
+
+2023-10-26 14:59:55,791 INFO Reflections took 21 ms to scan 1 urls, producing 4 keys and 23 values 
+
+2023-10-26 14:59:55,899 INFO Reflections took 56 ms to scan 1 urls, producing 5 keys and 19 values 
+
+2023-10-26 14:59:55,950 INFO Reflections took 6 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2023-10-26 14:59:58,710 INFO Reflections took 103 ms to scan 2 urls, producing 3 keys and 6 values 
+
+2023-10-26 14:59:58,764 INFO Reflections took 40 ms to scan 2 urls, producing 4 keys and 9 values 
+
+2023-10-26 14:59:58,842 INFO Reflections took 63 ms to scan 2 urls, producing 3 keys and 10 values 
+
+2023-10-26 14:59:58,869 INFO Reflections took 1 ms to scan 1 urls, producing 2 keys and 2 values 
+
+2023-10-26 14:59:58,933 INFO Reflections took 61 ms to scan 2 urls, producing 1 keys and 5 values 
+
+2023-10-26 14:59:59,006 INFO Reflections took 52 ms to scan 2 urls, producing 1 keys and 7 values 
+
+2023-10-26 14:59:59,043 INFO Reflections took 33 ms to scan 2 urls, producing 2 keys and 8 values 
+
+2023-10-26 14:59:59,066 INFO Reflections took 2 ms to scan 1 urls, producing 1 keys and 1 values 
+
+2023-10-26 15:00:06,957 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2023-10-26 15:00:07,577 INFO Adding welcome page: class path resource [static/index.html]
+
+2023-10-26 15:00:10,663 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2023-10-26 15:00:10,882 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c1e32c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@772861aa, org.springframework.security.web.header.HeaderWriterFilter@6c6366cf, org.springframework.security.web.csrf.CsrfFilter@1daf3b44, org.springframework.security.web.authentication.logout.LogoutFilter@10bea4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19962194, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@140d1230, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@383864d5, org.springframework.security.web.session.SessionManagementFilter@18acfe88, org.springframework.security.web.access.ExceptionTranslationFilter@44c13103]
+
+2023-10-26 15:00:12,399 INFO Initializing ExecutorService 'taskScheduler'
+
+2023-10-26 15:00:12,519 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2023-10-26 15:00:13,124 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2023-10-26 15:00:13,135 INFO Started Nacos in 54.891 seconds (JVM running for 57.179)
+
+2023-10-26 15:00:13,139 INFO Nacos started successfully in stand alone mode. use external storage
+
+2023-10-26 15:00:13,272 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-10-26 15:00:13,275 INFO Initializing Servlet 'dispatcherServlet'
+
+2023-10-26 15:00:13,302 INFO Completed initialization in 25 ms
+
+2023-10-26 15:00:47,541 WARN HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@29b3b6ea marked as broken because of SQLSTATE(08S01), ErrorCode(1053)
+
+java.sql.SQLNonTransientConnectionException: Server shutdown in progress
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:678)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:712)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:783)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:804)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePaginationHelperImpl.fetchPage(ExternalStoragePaginationHelperImpl.java:68)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePaginationHelperImpl.fetchPage(ExternalStoragePaginationHelperImpl.java:57)
+	at com.alibaba.nacos.config.server.auth.ExternalRolePersistServiceImpl.getRolesByUserName(ExternalRolePersistServiceImpl.java:103)
+	at com.alibaba.nacos.console.security.nacos.roles.NacosRoleServiceImpl.getRolesFromDatabase(NacosRoleServiceImpl.java:171)
+	at com.alibaba.nacos.console.security.nacos.roles.NacosRoleServiceImpl.getRoles(NacosRoleServiceImpl.java:162)
+	at com.alibaba.nacos.console.security.nacos.NacosAuthManager.login(NacosAuthManager.java:90)
+	at com.alibaba.nacos.core.auth.AuthFilter.doFilter(AuthFilter.java:127)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.naming.web.ServiceNameFilter.doFilter(ServiceNameFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.naming.web.TrafficReviseFilter.doFilter(TrafficReviseFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-10-26 15:00:47,711 WARN HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@2e0a3502 marked as broken because of SQLSTATE(08S01), ErrorCode(1053)
+
+java.sql.SQLNonTransientConnectionException: Server shutdown in progress
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1.doInPreparedStatement(JdbcTemplate.java:678)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:712)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:783)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:804)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePaginationHelperImpl.fetchPage(ExternalStoragePaginationHelperImpl.java:68)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePaginationHelperImpl.fetchPage(ExternalStoragePaginationHelperImpl.java:57)
+	at com.alibaba.nacos.config.server.auth.ExternalRolePersistServiceImpl.getRolesByUserName(ExternalRolePersistServiceImpl.java:103)
+	at com.alibaba.nacos.console.security.nacos.roles.NacosRoleServiceImpl.getRolesFromDatabase(NacosRoleServiceImpl.java:171)
+	at com.alibaba.nacos.console.security.nacos.roles.NacosRoleServiceImpl.getRoles(NacosRoleServiceImpl.java:162)
+	at com.alibaba.nacos.console.security.nacos.NacosAuthManager.login(NacosAuthManager.java:90)
+	at com.alibaba.nacos.core.auth.AuthFilter.doFilter(AuthFilter.java:127)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.naming.web.ServiceNameFilter.doFilter(ServiceNameFilter.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.naming.web.TrafficReviseFilter.doFilter(TrafficReviseFilter.java:75)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-10-26 15:00:47,735 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@44cdcc47 (Communications link failure
+
+The last packet successfully received from the server was 6 milliseconds ago. The last packet sent successfully to the server was 6 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2023-10-26 15:00:47,738 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@c0c034e (Communications link failure
+
+The last packet successfully received from the server was 1 milliseconds ago. The last packet sent successfully to the server was 1 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2023-10-26 15:03:26,230 INFO A cookie header was received [name":"首页","navbarLevel":1,"summary":"首页","icon":"el-icon-remove","url":"/","sort":7,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"e186d3225e1405a0ee73995347b1c239","status":1,"createTime":"2021-02-23 13:17:30","updateTime":"2021-02-23 17:05:31"},{"name":"关于我","navbarLevel":1,"summary":"关于我","icon":"el-icon-user","url":"/about","sort":6,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"c3e10b3c8d576ed24387934d5d0c0b81","status":1,"createTime":"2021-02-23 13:18:43","updateTime":"2021-02-23 18:06:14"},{"name":"归档","navbarLevel":1,"summary":"归档","icon":"el-icon-camera","url":"/sort","sort":5,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"55bca78a37694c5a72b2910adde12d96","status":1,"createTime":"2021-02-23 13:19:11","updateTime":"2021-02-23 15:30:37"},{"name":"分类","navbarLevel":1,"summary":"博客分类","icon":"el-icon-folder-checked","url":"/classify","sort":4,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"abe6c960aa65fba7f728480fd933807f","status":1,"createTime":"2021-02-23 13:19:38","updateTime":"2021-02-23 15:30:43"},{"name":"标签","navbarLevel":1,"summary":"博客标签","icon":"el-icon-headset","url":"/tag","sort":3,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"0de9cfa4227c80530e43c534712156f5","status":1,"createTime":"2021-02-23 13:20:01","updateTime":"2021-02-23 15:30:47"},{"name":"专题","navbarLevel":1,"summary":"博客专题","icon":"el-icon-data-analysis","url":"/subject","sort":2,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"40277498960cfc2fb428c1ee4429676c","status":1,"createTime":"2021-02-23 13:20:22","updateTime":"2021-02-23 15:30:50"},{"name":"留言板","navbarLevel":1,"summary":"留言板","icon":"el-icon-money","url":"/messageBoard","sort":1,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"0d8a13137502ed28649888cfea40ee80","status":1,"createTime":"2021-02-23 13:20:47","updateTime":"2021-02-23 15:30:53"},{"name":"博客源码","navbarLevel":1,"summary":"博客源码","icon":"el-icon-zoom-in","url":"https://gitee.com/moxi159753/action_blog_v2","sort":0,"isShow":1,"isJumpExternalUrl":1,"childWebNavbar":[{"name":"博客源码","navbarLevel":2,"summary":"阿盛博客源码","icon":"el-icon-tickets","parentUid":"94d59134ab64aac6d7994c80c6698f8a","url":"https://gitee.com/moxi159753/action_blog_v2","sort":0,"isShow":1,"isJumpExternalUrl":1,"uid":"51f9db7329ccd382255c01f4ef371108","status":1,"createTime":"2021-02-27 13:06:13","updateTime":"2021-02-27 13:06:13"},{"name":"学习笔记","navbarLevel":2,"summary":"学习笔记","icon":"el-icon-folder-opened","parentUid":"94d59134ab64aac6d7994c80c6698f8a","url":"https://gitee.com/moxi159753/LearningNotes","sort":0,"isShow":1,"isJumpExternalUrl":1,"uid":"25bdfd2a854ea4af1bf1adcd676a711b","status":1,"createTime":"2021-02-27 12:43:40","updateTime":"2021-02-27 12:43:40"}],"uid":"94d59134ab64aac6d7994c80c6698f8a","status":1,"createTime":"2021-02-23 18:07:24","updateTime":"2021-02-27 13:05:34"},{"name":"博客详情","navbarLevel":1,"summary":"博客详情页","icon":"el-icon-user","url":"/info","sort":0,"isShow":0,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"a26eb81119b47bb34f733c4c38432021","status":1,"createTime":"2021-02-23 18:40:54","updateTime":"2021-02-23 18:40:54"},{"name":"博客列表","navbarLevel":1,"summary":"博客列表","icon":"el-icon-picture-outline-round","url":"/list","sort":0,"isShow":0,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"7fb0684401ff99073c64dc956a9cb28a","status":1,"createTime":"2021-02-23 18:57:19","updateTime":"2021-02-23 18:57:19"}]; Admin-Token=bearer_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhZG1pblVpZCI6IjFmMDFjZDFkMmY0NzQ3NDNiMjQxZDc0MDA4YjEyMzMzIiwicm9sZSI6Im51bGzotoXnuqfnrqHnkIYiLCJjcmVhdGVUaW1lIjoxNjk4MjgxODcwMjA3LCJzdWIiOiJhZG1pbiIsImlzcyI6ImFjdGlvbmJsb2ciLCJhdWQiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImV4cCI6MTY5ODI4NTQ3MCwibmJmIjoxNjk4MjgxODcwfQ.8IbjUqy_lFM3_0foVNypp2ThOetkxQVWaX10wuWcOY4; token=aacfa951a9554134bed22a4e9fc3c66e] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+
+2023-10-26 15:09:56,960 WARN clearConfigHistory start
+
+2023-10-26 15:09:57,081 INFO [capacityManagement] start correct usage
+
+2023-10-26 15:09:57,093 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 15:10:00,339 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@65191d4c (Communications link failure
+
+The last packet successfully received from the server was 3,246 milliseconds ago. The last packet sent successfully to the server was 3,251 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2023-10-26 15:10:00,340 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3d84afd5 (Communications link failure
+
+The last packet successfully received from the server was 35,320 milliseconds ago. The last packet sent successfully to the server was 35,320 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2023-10-26 15:10:00,342 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3b28cf65 (Communications link failure
+
+The last packet successfully received from the server was 35,305 milliseconds ago. The last packet sent successfully to the server was 35,305 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2023-10-26 15:10:00,343 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@16f65631 (Communications link failure
+
+The last packet successfully received from the server was 142,839 milliseconds ago. The last packet sent successfully to the server was 142,839 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2023-10-26 15:10:00,347 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@212e1d93 (Communications link failure
+
+The last packet successfully received from the server was 488,168 milliseconds ago. The last packet sent successfully to the server was 488,168 milliseconds ago.). Possibly consider using a shorter maxLifetime value.
+
+2023-10-26 15:10:14,306 WARN [HttpClientBeanHolder] Start destroying common HttpClient
+
+2023-10-26 15:10:14,306 WARN [ConfigServer-HttpClientManager] Start destroying NacosRestTemplate
+
+2023-10-26 15:10:14,305 WARN [WatchFileCenter] start close
+
+2023-10-26 15:10:14,305 WARN [NotifyCenter] Start destroying Publisher
+
+2023-10-26 15:10:14,306 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2023-10-26 15:10:14,309 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/data/tps
+
+2023-10-26 15:10:14,312 WARN [NotifyCenter] Destruction of the end
+
+2023-10-26 15:10:14,312 WARN [ConfigServer-HttpClientManager] Destruction of the end
+
+2023-10-26 15:10:14,313 WARN [HttpClientBeanHolder] Destruction of the end
+
+2023-10-26 15:10:14,313 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/conf
+
+2023-10-26 15:10:14,315 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/data/loader
+
+2023-10-26 15:10:14,316 WARN [WatchFileCenter] already closed
+
+2023-10-26 15:10:14,318 INFO Shutting down ExecutorService 'taskScheduler'
+
+2023-10-26 15:10:14,320 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2023-10-26 15:10:16,424 WARN [ThreadPoolManager] Destruction of the end
+
+2023-10-26 15:10:19,657 INFO Starting Nacos v2.0.2 on 9ed64a24ec2e with PID 1 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2023-10-26 15:10:19,657 INFO The following profiles are active: standalone
+
+2023-10-26 15:10:22,839 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@545f80bf' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-26 15:10:22,846 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-26 15:10:23,131 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-10-26 15:10:23,279 INFO Starting service [Tomcat]
+
+2023-10-26 15:10:23,280 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2023-10-26 15:10:23,482 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2023-10-26 15:10:23,516 INFO Initializing Spring embedded WebApplicationContext
+
+2023-10-26 15:10:23,516 INFO Root WebApplicationContext: initialization completed in 3812 ms
+
+2023-10-26 15:10:23,916 INFO HikariPool-1 - Starting...
+
+2023-10-26 15:10:24,074 INFO HikariPool-1 - Start completed.
+
+2023-10-26 15:10:24,331 INFO Nacos-related cluster resource initialization
+
+2023-10-26 15:10:24,340 INFO The cluster resource is initialized
+
+2023-10-26 15:10:24,884 INFO Reflections took 24 ms to scan 1 urls, producing 5 keys and 10 values 
+
+2023-10-26 15:10:24,909 INFO Reflections took 3 ms to scan 1 urls, producing 4 keys and 23 values 
+
+2023-10-26 15:10:24,921 INFO Reflections took 3 ms to scan 1 urls, producing 5 keys and 19 values 
+
+2023-10-26 15:10:24,929 INFO Reflections took 1 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2023-10-26 15:10:25,468 INFO Reflections took 195 ms to scan 2 urls, producing 3 keys and 6 values 
+
+2023-10-26 15:10:25,486 INFO Reflections took 14 ms to scan 2 urls, producing 4 keys and 9 values 
+
+2023-10-26 15:10:25,504 INFO Reflections took 17 ms to scan 2 urls, producing 3 keys and 10 values 
+
+2023-10-26 15:10:25,507 INFO Reflections took 0 ms to scan 1 urls, producing 2 keys and 2 values 
+
+2023-10-26 15:10:25,523 INFO Reflections took 14 ms to scan 2 urls, producing 1 keys and 5 values 
+
+2023-10-26 15:10:25,539 INFO Reflections took 13 ms to scan 2 urls, producing 1 keys and 7 values 
+
+2023-10-26 15:10:25,554 INFO Reflections took 13 ms to scan 2 urls, producing 2 keys and 8 values 
+
+2023-10-26 15:10:25,557 INFO Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values 
+
+2023-10-26 15:10:27,520 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2023-10-26 15:10:27,658 INFO Adding welcome page: class path resource [static/index.html]
+
+2023-10-26 15:10:28,387 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2023-10-26 15:10:28,417 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47b67fcb, org.springframework.security.web.context.SecurityContextPersistenceFilter@3cbf1ba4, org.springframework.security.web.header.HeaderWriterFilter@19962194, org.springframework.security.web.csrf.CsrfFilter@18acfe88, org.springframework.security.web.authentication.logout.LogoutFilter@41b1f51e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e2c64, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3dd818e8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b9f74d0, org.springframework.security.web.session.SessionManagementFilter@7c8f9c2e, org.springframework.security.web.access.ExceptionTranslationFilter@772861aa]
+
+2023-10-26 15:10:28,543 INFO Initializing ExecutorService 'taskScheduler'
+
+2023-10-26 15:10:28,575 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2023-10-26 15:10:28,956 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2023-10-26 15:10:28,963 INFO Started Nacos in 10.869 seconds (JVM running for 11.343)
+
+2023-10-26 15:10:28,964 INFO Nacos started successfully in stand alone mode. use external storage
+
+2023-10-26 15:10:29,049 INFO A cookie header was received [name":"首页","navbarLevel":1,"summary":"首页","icon":"el-icon-remove","url":"/","sort":7,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"e186d3225e1405a0ee73995347b1c239","status":1,"createTime":"2021-02-23 13:17:30","updateTime":"2021-02-23 17:05:31"},{"name":"关于我","navbarLevel":1,"summary":"关于我","icon":"el-icon-user","url":"/about","sort":6,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"c3e10b3c8d576ed24387934d5d0c0b81","status":1,"createTime":"2021-02-23 13:18:43","updateTime":"2021-02-23 18:06:14"},{"name":"归档","navbarLevel":1,"summary":"归档","icon":"el-icon-camera","url":"/sort","sort":5,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"55bca78a37694c5a72b2910adde12d96","status":1,"createTime":"2021-02-23 13:19:11","updateTime":"2021-02-23 15:30:37"},{"name":"分类","navbarLevel":1,"summary":"博客分类","icon":"el-icon-folder-checked","url":"/classify","sort":4,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"abe6c960aa65fba7f728480fd933807f","status":1,"createTime":"2021-02-23 13:19:38","updateTime":"2021-02-23 15:30:43"},{"name":"标签","navbarLevel":1,"summary":"博客标签","icon":"el-icon-headset","url":"/tag","sort":3,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"0de9cfa4227c80530e43c534712156f5","status":1,"createTime":"2021-02-23 13:20:01","updateTime":"2021-02-23 15:30:47"},{"name":"专题","navbarLevel":1,"summary":"博客专题","icon":"el-icon-data-analysis","url":"/subject","sort":2,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"40277498960cfc2fb428c1ee4429676c","status":1,"createTime":"2021-02-23 13:20:22","updateTime":"2021-02-23 15:30:50"},{"name":"留言板","navbarLevel":1,"summary":"留言板","icon":"el-icon-money","url":"/messageBoard","sort":1,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"0d8a13137502ed28649888cfea40ee80","status":1,"createTime":"2021-02-23 13:20:47","updateTime":"2021-02-23 15:30:53"},{"name":"博客源码","navbarLevel":1,"summary":"博客源码","icon":"el-icon-zoom-in","url":"https://gitee.com/moxi159753/action_blog_v2","sort":0,"isShow":1,"isJumpExternalUrl":1,"childWebNavbar":[{"name":"博客源码","navbarLevel":2,"summary":"阿盛博客源码","icon":"el-icon-tickets","parentUid":"94d59134ab64aac6d7994c80c6698f8a","url":"https://gitee.com/moxi159753/action_blog_v2","sort":0,"isShow":1,"isJumpExternalUrl":1,"uid":"51f9db7329ccd382255c01f4ef371108","status":1,"createTime":"2021-02-27 13:06:13","updateTime":"2021-02-27 13:06:13"},{"name":"学习笔记","navbarLevel":2,"summary":"学习笔记","icon":"el-icon-folder-opened","parentUid":"94d59134ab64aac6d7994c80c6698f8a","url":"https://gitee.com/moxi159753/LearningNotes","sort":0,"isShow":1,"isJumpExternalUrl":1,"uid":"25bdfd2a854ea4af1bf1adcd676a711b","status":1,"createTime":"2021-02-27 12:43:40","updateTime":"2021-02-27 12:43:40"}],"uid":"94d59134ab64aac6d7994c80c6698f8a","status":1,"createTime":"2021-02-23 18:07:24","updateTime":"2021-02-27 13:05:34"},{"name":"博客详情","navbarLevel":1,"summary":"博客详情页","icon":"el-icon-user","url":"/info","sort":0,"isShow":0,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"a26eb81119b47bb34f733c4c38432021","status":1,"createTime":"2021-02-23 18:40:54","updateTime":"2021-02-23 18:40:54"},{"name":"博客列表","navbarLevel":1,"summary":"博客列表","icon":"el-icon-picture-outline-round","url":"/list","sort":0,"isShow":0,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"7fb0684401ff99073c64dc956a9cb28a","status":1,"createTime":"2021-02-23 18:57:19","updateTime":"2021-02-23 18:57:19"}]; Admin-Token=bearer_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhZG1pblVpZCI6IjFmMDFjZDFkMmY0NzQ3NDNiMjQxZDc0MDA4YjEyMzMzIiwicm9sZSI6Im51bGzotoXnuqfnrqHnkIYiLCJjcmVhdGVUaW1lIjoxNjk4MjgxODcwMjA3LCJzdWIiOiJhZG1pbiIsImlzcyI6ImFjdGlvbmJsb2ciLCJhdWQiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImV4cCI6MTY5ODI4NTQ3MCwibmJmIjoxNjk4MjgxODcwfQ.8IbjUqy_lFM3_0foVNypp2ThOetkxQVWaX10wuWcOY4; token=aacfa951a9554134bed22a4e9fc3c66e] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+
+2023-10-26 15:10:29,059 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-10-26 15:10:29,059 INFO Initializing Servlet 'dispatcherServlet'
+
+2023-10-26 15:10:29,075 INFO Completed initialization in 15 ms
+
+2023-10-26 15:20:25,133 WARN clearConfigHistory start
+
+2023-10-26 15:20:25,156 INFO [capacityManagement] start correct usage
+
+2023-10-26 15:20:25,159 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-26 15:25:43,286 WARN [HttpClientBeanHolder] Start destroying common HttpClient
+
+2023-10-26 15:25:43,287 WARN [ConfigServer-HttpClientManager] Start destroying NacosRestTemplate
+
+2023-10-26 15:25:43,287 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2023-10-26 15:25:43,288 WARN [WatchFileCenter] start close
+
+2023-10-26 15:25:43,288 WARN [NotifyCenter] Start destroying Publisher
+
+2023-10-26 15:25:43,295 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/data/tps
+
+2023-10-26 15:25:43,297 WARN [NotifyCenter] Destruction of the end
+
+2023-10-26 15:25:43,297 INFO Shutting down ExecutorService 'taskScheduler'
+
+2023-10-26 15:25:43,298 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/conf
+
+2023-10-26 15:25:43,298 WARN [HttpClientBeanHolder] Destruction of the end
+
+2023-10-26 15:25:43,298 WARN [ConfigServer-HttpClientManager] Destruction of the end
+
+2023-10-26 15:25:43,300 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/data/loader
+
+2023-10-26 15:25:43,301 WARN [WatchFileCenter] already closed
+
+2023-10-26 15:25:43,301 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2023-10-26 15:25:44,263 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6a495f54 (Server shutdown in progress). Possibly consider using a shorter maxLifetime value.
+
+2023-10-26 15:25:44,264 WARN HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@32275ec6 (Server shutdown in progress). Possibly consider using a shorter maxLifetime value.
+
+2023-10-26 15:25:45,410 WARN [ThreadPoolManager] Destruction of the end
+
+2023-10-26 16:11:24,280 INFO Starting Nacos v2.0.2 on 9ed64a24ec2e with PID 1 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2023-10-26 16:11:24,281 INFO The following profiles are active: standalone
+
+2023-10-26 16:11:27,647 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@14c053c6' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-26 16:11:27,654 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-26 16:11:28,104 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-10-26 16:11:28,135 INFO Starting service [Tomcat]
+
+2023-10-26 16:11:28,136 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2023-10-26 16:11:28,376 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2023-10-26 16:11:28,409 INFO Initializing Spring embedded WebApplicationContext
+
+2023-10-26 16:11:28,410 INFO Root WebApplicationContext: initialization completed in 4045 ms
+
+2023-10-26 16:11:28,863 INFO HikariPool-1 - Starting...
+
+2023-10-26 16:11:29,024 INFO HikariPool-1 - Start completed.
+
+2023-10-26 16:11:29,297 INFO Nacos-related cluster resource initialization
+
+2023-10-26 16:11:29,308 INFO The cluster resource is initialized
+
+2023-10-26 16:11:29,947 INFO Reflections took 36 ms to scan 1 urls, producing 5 keys and 10 values 
+
+2023-10-26 16:11:29,975 INFO Reflections took 3 ms to scan 1 urls, producing 4 keys and 23 values 
+
+2023-10-26 16:11:29,989 INFO Reflections took 4 ms to scan 1 urls, producing 5 keys and 19 values 
+
+2023-10-26 16:11:29,996 INFO Reflections took 1 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2023-10-26 16:11:30,670 INFO Reflections took 22 ms to scan 2 urls, producing 3 keys and 6 values 
+
+2023-10-26 16:11:30,693 INFO Reflections took 20 ms to scan 2 urls, producing 4 keys and 9 values 
+
+2023-10-26 16:11:30,711 INFO Reflections took 16 ms to scan 2 urls, producing 3 keys and 10 values 
+
+2023-10-26 16:11:30,714 INFO Reflections took 1 ms to scan 1 urls, producing 2 keys and 2 values 
+
+2023-10-26 16:11:30,730 INFO Reflections took 14 ms to scan 2 urls, producing 1 keys and 5 values 
+
+2023-10-26 16:11:30,746 INFO Reflections took 14 ms to scan 2 urls, producing 1 keys and 7 values 
+
+2023-10-26 16:11:30,765 INFO Reflections took 17 ms to scan 2 urls, producing 2 keys and 8 values 
+
+2023-10-26 16:11:30,768 INFO Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values 
+
+2023-10-26 16:11:32,708 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2023-10-26 16:11:32,875 INFO Adding welcome page: class path resource [static/index.html]
+
+2023-10-26 16:11:33,661 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2023-10-26 16:11:33,694 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@383864d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@6631cb64, org.springframework.security.web.header.HeaderWriterFilter@55a88417, org.springframework.security.web.csrf.CsrfFilter@7fd8c559, org.springframework.security.web.authentication.logout.LogoutFilter@7e2c64, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@481e91b6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3cbf1ba4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3dd818e8, org.springframework.security.web.session.SessionManagementFilter@8a2a6a, org.springframework.security.web.access.ExceptionTranslationFilter@8f2098e]
+
+2023-10-26 16:11:33,810 INFO Initializing ExecutorService 'taskScheduler'
+
+2023-10-26 16:11:33,847 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2023-10-26 16:11:34,240 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2023-10-26 16:11:34,249 INFO Started Nacos in 11.475 seconds (JVM running for 12.005)
+
+2023-10-26 16:11:34,251 INFO Nacos started successfully in stand alone mode. use external storage
+
+2023-10-26 16:11:34,483 INFO A cookie header was received [name":"首页","navbarLevel":1,"summary":"首页","icon":"el-icon-remove","url":"/","sort":7,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"e186d3225e1405a0ee73995347b1c239","status":1,"createTime":"2021-02-23 13:17:30","updateTime":"2021-02-23 17:05:31"},{"name":"关于我","navbarLevel":1,"summary":"关于我","icon":"el-icon-user","url":"/about","sort":6,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"c3e10b3c8d576ed24387934d5d0c0b81","status":1,"createTime":"2021-02-23 13:18:43","updateTime":"2021-02-23 18:06:14"},{"name":"归档","navbarLevel":1,"summary":"归档","icon":"el-icon-camera","url":"/sort","sort":5,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"55bca78a37694c5a72b2910adde12d96","status":1,"createTime":"2021-02-23 13:19:11","updateTime":"2021-02-23 15:30:37"},{"name":"分类","navbarLevel":1,"summary":"博客分类","icon":"el-icon-folder-checked","url":"/classify","sort":4,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"abe6c960aa65fba7f728480fd933807f","status":1,"createTime":"2021-02-23 13:19:38","updateTime":"2021-02-23 15:30:43"},{"name":"标签","navbarLevel":1,"summary":"博客标签","icon":"el-icon-headset","url":"/tag","sort":3,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"0de9cfa4227c80530e43c534712156f5","status":1,"createTime":"2021-02-23 13:20:01","updateTime":"2021-02-23 15:30:47"},{"name":"专题","navbarLevel":1,"summary":"博客专题","icon":"el-icon-data-analysis","url":"/subject","sort":2,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"40277498960cfc2fb428c1ee4429676c","status":1,"createTime":"2021-02-23 13:20:22","updateTime":"2021-02-23 15:30:50"},{"name":"留言板","navbarLevel":1,"summary":"留言板","icon":"el-icon-money","url":"/messageBoard","sort":1,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"0d8a13137502ed28649888cfea40ee80","status":1,"createTime":"2021-02-23 13:20:47","updateTime":"2021-02-23 15:30:53"},{"name":"博客源码","navbarLevel":1,"summary":"博客源码","icon":"el-icon-zoom-in","url":"https://gitee.com/moxi159753/action_blog_v2","sort":0,"isShow":1,"isJumpExternalUrl":1,"childWebNavbar":[{"name":"博客源码","navbarLevel":2,"summary":"阿盛博客源码","icon":"el-icon-tickets","parentUid":"94d59134ab64aac6d7994c80c6698f8a","url":"https://gitee.com/moxi159753/action_blog_v2","sort":0,"isShow":1,"isJumpExternalUrl":1,"uid":"51f9db7329ccd382255c01f4ef371108","status":1,"createTime":"2021-02-27 13:06:13","updateTime":"2021-02-27 13:06:13"},{"name":"学习笔记","navbarLevel":2,"summary":"学习笔记","icon":"el-icon-folder-opened","parentUid":"94d59134ab64aac6d7994c80c6698f8a","url":"https://gitee.com/moxi159753/LearningNotes","sort":0,"isShow":1,"isJumpExternalUrl":1,"uid":"25bdfd2a854ea4af1bf1adcd676a711b","status":1,"createTime":"2021-02-27 12:43:40","updateTime":"2021-02-27 12:43:40"}],"uid":"94d59134ab64aac6d7994c80c6698f8a","status":1,"createTime":"2021-02-23 18:07:24","updateTime":"2021-02-27 13:05:34"},{"name":"博客详情","navbarLevel":1,"summary":"博客详情页","icon":"el-icon-user","url":"/info","sort":0,"isShow":0,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"a26eb81119b47bb34f733c4c38432021","status":1,"createTime":"2021-02-23 18:40:54","updateTime":"2021-02-23 18:40:54"},{"name":"博客列表","navbarLevel":1,"summary":"博客列表","icon":"el-icon-picture-outline-round","url":"/list","sort":0,"isShow":0,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"7fb0684401ff99073c64dc956a9cb28a","status":1,"createTime":"2021-02-23 18:57:19","updateTime":"2021-02-23 18:57:19"}]; Admin-Token=bearer_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhZG1pblVpZCI6IjFmMDFjZDFkMmY0NzQ3NDNiMjQxZDc0MDA4YjEyMzMzIiwicm9sZSI6Im51bGzotoXnuqfnrqHnkIYiLCJjcmVhdGVUaW1lIjoxNjk4MjgxODcwMjA3LCJzdWIiOiJhZG1pbiIsImlzcyI6ImFjdGlvbmJsb2ciLCJhdWQiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImV4cCI6MTY5ODI4NTQ3MCwibmJmIjoxNjk4MjgxODcwfQ.8IbjUqy_lFM3_0foVNypp2ThOetkxQVWaX10wuWcOY4; token=aacfa951a9554134bed22a4e9fc3c66e] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+
+2023-10-26 16:11:34,493 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-10-26 16:11:34,494 INFO Initializing Servlet 'dispatcherServlet'
+
+2023-10-26 16:11:34,513 INFO Completed initialization in 18 ms
+
+2023-10-26 16:16:54,012 WARN [NotifyCenter] Start destroying Publisher
+
+2023-10-26 16:16:54,012 WARN [ConfigServer-HttpClientManager] Start destroying NacosRestTemplate
+
+2023-10-26 16:16:54,012 WARN [WatchFileCenter] start close
+
+2023-10-26 16:16:54,012 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2023-10-26 16:16:54,013 WARN [HttpClientBeanHolder] Start destroying common HttpClient
+
+2023-10-26 16:16:54,013 WARN [NotifyCenter] Destruction of the end
+
+2023-10-26 16:16:54,014 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/data/tps
+
+2023-10-26 16:16:54,020 WARN [ConfigServer-HttpClientManager] Destruction of the end
+
+2023-10-26 16:16:54,021 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/conf
+
+2023-10-26 16:16:54,022 WARN [HttpClientBeanHolder] Destruction of the end
+
+2023-10-26 16:16:54,023 INFO Shutting down ExecutorService 'taskScheduler'
+
+2023-10-26 16:16:54,022 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/data/loader
+
+2023-10-26 16:16:54,023 WARN [WatchFileCenter] already closed
+
+2023-10-26 16:16:54,025 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2023-10-26 16:16:56,129 WARN [ThreadPoolManager] Destruction of the end
+
+2023-10-26 16:30:50,269 INFO Starting Nacos v2.0.2 on ec0ac93b81a2 with PID 1 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2023-10-26 16:30:50,270 INFO The following profiles are active: standalone
+
+2023-10-26 16:30:53,467 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@9fecdf1' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-26 16:30:53,473 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-26 16:30:53,924 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-10-26 16:30:53,957 INFO Starting service [Tomcat]
+
+2023-10-26 16:30:53,958 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2023-10-26 16:30:54,133 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2023-10-26 16:30:54,166 INFO Initializing Spring embedded WebApplicationContext
+
+2023-10-26 16:30:54,166 INFO Root WebApplicationContext: initialization completed in 3828 ms
+
+2023-10-26 16:30:54,565 INFO HikariPool-1 - Starting...
+
+2023-10-26 16:30:59,726 ERROR HikariPool-1 - Exception during pool initialization.
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:371)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:523)
+	at com.alibaba.nacos.config.server.service.datasource.ExternalDataSourceServiceImpl$SelectMasterTask.run(ExternalDataSourceServiceImpl.java:212)
+	at com.alibaba.nacos.config.server.service.datasource.ExternalDataSourceServiceImpl.reload(ExternalDataSourceServiceImpl.java:130)
+	at com.alibaba.nacos.config.server.service.datasource.ExternalDataSourceServiceImpl.init(ExternalDataSourceServiceImpl.java:106)
+	at com.alibaba.nacos.config.server.service.datasource.DynamicDataSource.getDataSource(DynamicDataSource.java:55)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePersistServiceImpl.init(ExternalStoragePersistServiceImpl.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1761)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1402)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1402)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1402)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1158)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1402)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1402)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:394)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:366)
+	at com.alibaba.nacos.core.auth.AuthConfig$$EnhancerBySpringCGLIB$$d88ff01e.authFilter(<generated>)
+	at com.alibaba.nacos.core.auth.AuthConfig.authFilterRegistration(AuthConfig.java:34)
+	at com.alibaba.nacos.core.auth.AuthConfig$$EnhancerBySpringCGLIB$$d88ff01e.CGLIB$authFilterRegistration$1(<generated>)
+	at com.alibaba.nacos.core.auth.AuthConfig$$EnhancerBySpringCGLIB$$d88ff01e$$FastClassBySpringCGLIB$$4a7c3a5f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at com.alibaba.nacos.core.auth.AuthConfig$$EnhancerBySpringCGLIB$$d88ff01e.authFilterRegistration(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1158)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5128)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:105)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:416)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.alibaba.nacos.Nacos.main(Nacos.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.PropertiesLauncher.main(PropertiesLauncher.java:467)
+Caused by: com.mysql.cj.exceptions.CJException: Unknown database 'nacos_config'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:129)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:786)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:711)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:679)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:128)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:466)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:171)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1342)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850)
+	... 186 common frames omitted
+2023-10-26 16:30:59,738 INFO HikariPool-1 - Starting...
+
+2023-10-26 16:31:04,746 ERROR HikariPool-1 - Exception during pool initialization.
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:354)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:554)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:371)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:452)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:462)
+	at com.alibaba.nacos.config.server.service.datasource.ExternalDataSourceServiceImpl$CheckDbHealthTask.run(ExternalDataSourceServiceImpl.java:246)
+	at com.alibaba.nacos.config.server.service.datasource.ExternalDataSourceServiceImpl.reload(ExternalDataSourceServiceImpl.java:131)
+	at com.alibaba.nacos.config.server.service.datasource.ExternalDataSourceServiceImpl.init(ExternalDataSourceServiceImpl.java:106)
+	at com.alibaba.nacos.config.server.service.datasource.DynamicDataSource.getDataSource(DynamicDataSource.java:55)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePersistServiceImpl.init(ExternalStoragePersistServiceImpl.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1761)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1402)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1402)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1402)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1158)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1402)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1402)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:394)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:366)
+	at com.alibaba.nacos.core.auth.AuthConfig$$EnhancerBySpringCGLIB$$d88ff01e.authFilter(<generated>)
+	at com.alibaba.nacos.core.auth.AuthConfig.authFilterRegistration(AuthConfig.java:34)
+	at com.alibaba.nacos.core.auth.AuthConfig$$EnhancerBySpringCGLIB$$d88ff01e.CGLIB$authFilterRegistration$1(<generated>)
+	at com.alibaba.nacos.core.auth.AuthConfig$$EnhancerBySpringCGLIB$$d88ff01e$$FastClassBySpringCGLIB$$4a7c3a5f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at com.alibaba.nacos.core.auth.AuthConfig$$EnhancerBySpringCGLIB$$d88ff01e.authFilterRegistration(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1158)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5128)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:105)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:416)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.alibaba.nacos.Nacos.main(Nacos.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.PropertiesLauncher.main(PropertiesLauncher.java:467)
+Caused by: com.mysql.cj.exceptions.CJException: Unknown database 'nacos_config'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:129)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:786)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:711)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:679)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:128)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:466)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:171)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1342)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850)
+	... 187 common frames omitted
+2023-10-26 16:31:05,001 INFO Nacos-related cluster resource initialization
+
+2023-10-26 16:31:05,010 INFO The cluster resource is initialized
+
+2023-10-26 16:31:05,611 INFO Reflections took 25 ms to scan 1 urls, producing 5 keys and 10 values 
+
+2023-10-26 16:31:05,636 INFO Reflections took 3 ms to scan 1 urls, producing 4 keys and 23 values 
+
+2023-10-26 16:31:05,648 INFO Reflections took 3 ms to scan 1 urls, producing 5 keys and 19 values 
+
+2023-10-26 16:31:05,655 INFO Reflections took 1 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2023-10-26 16:31:05,794 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memoryMonitor' defined in URL [jar:file:/home/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-2.0.2.jar!/com/alibaba/nacos/config/server/monitor/MemoryMonitor.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService': Unsatisfied dependency expressed through field 'dumpService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'externalDumpService': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Nacos Server did not start because dumpservice bean construction failure :
+No DataSource set
+
+2023-10-26 16:31:05,801 INFO Stopping service [Tomcat]
+
+2023-10-26 16:31:05,805 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.config.server.timer.0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,806 WARN The web application [nacos] appears to have started a thread named [pool-2-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:343)
+ org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+ org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,807 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,807 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,808 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,809 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,809 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,810 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,811 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,811 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,812 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,813 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,813 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 11] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,814 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 12] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,815 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 13] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,816 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,816 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,817 WARN The web application [nacos] appears to have started a thread named [I/O dispatcher 16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+ sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+ sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+ sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+ sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+ org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:255)
+ org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:104)
+ org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:591)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,818 WARN The web application [nacos] appears to have started a thread named [nacos.publisher-com.alibaba.nacos.core.cluster.MembersChangeEvent] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.nacos.common.utils.ThreadUtils.sleep(ThreadUtils.java:54)
+ com.alibaba.nacos.common.notify.DefaultPublisher.openEventHandler(DefaultPublisher.java:109)
+ com.alibaba.nacos.common.notify.DefaultPublisher.run(DefaultPublisher.java:95)
+
+2023-10-26 16:31:05,818 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer.0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,819 WARN The web application [nacos] appears to have started a thread named [nacos.publisher-com.alibaba.nacos.naming.consistency.ValueChangeEvent] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.nacos.common.utils.ThreadUtils.sleep(ThreadUtils.java:54)
+ com.alibaba.nacos.common.notify.DefaultPublisher.openEventHandler(DefaultPublisher.java:109)
+ com.alibaba.nacos.common.notify.DefaultPublisher.run(DefaultPublisher.java:95)
+
+2023-10-26 16:31:05,819 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer.1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,820 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer.2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainDatagramSocketImpl.receive0(Native Method)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:187)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,820 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer.3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,821 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer.4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,822 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer.5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,822 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainDatagramSocketImpl.receive0(Native Method)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.naming.push.UdpPushService$Receiver.run(UdpPushService.java:431)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,823 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.push.retransmitter.0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,824 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.core.distributed.distro.task.delay.DistroDelayTaskExecuteEngine.0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,825 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,825 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,826 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,826 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,827 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,827 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,828 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,829 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,829 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,830 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,831 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,832 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,833 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,834 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,835 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,835 WARN The web application [nacos] appears to have started a thread named [DistroExecuteTaskExecuteEngine] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:114)
+
+2023-10-26 16:31:05,836 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.notifier.0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.DistroConsistencyServiceImpl$Notifier.run(DistroConsistencyServiceImpl.java:408)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,836 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.service.worker.0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,837 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.service.update.processor.0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+ java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+ com.alibaba.nacos.naming.core.ServiceManager$UpdatedServiceProcessor.run(ServiceManager.java:255)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,838 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.service.empty.auto-clean.0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,839 WARN The web application [nacos] appears to have started a thread named [nacos.publisher-com.alibaba.nacos.naming.core.v2.upgrade.UpgradeStates$UpgradeStateChangedEvent] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+ com.alibaba.nacos.common.notify.DefaultPublisher.openEventHandler(DefaultPublisher.java:117)
+ com.alibaba.nacos.common.notify.DefaultPublisher.run(DefaultPublisher.java:95)
+
+2023-10-26 16:31:05,840 WARN The web application [nacos] appears to have started a thread named [DoubleWriteDelayTaskEngine.0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,840 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer.6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,841 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer.7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,842 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer.8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,842 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer.9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,843 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer.11] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+
+2023-10-26 16:31:05,846 INFO Nacos Log files: /home/nacos/logs
+
+2023-10-26 16:31:05,848 INFO Nacos Log files: /home/nacos/conf
+
+2023-10-26 16:31:05,848 INFO Nacos Log files: /home/nacos/data
+
+2023-10-26 16:31:05,849 ERROR Startup errors : 
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memoryMonitor' defined in URL [jar:file:/home/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-2.0.2.jar!/com/alibaba/nacos/config/server/monitor/MemoryMonitor.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService': Unsatisfied dependency expressed through field 'dumpService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'externalDumpService': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Nacos Server did not start because dumpservice bean construction failure :
+No DataSource set
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.alibaba.nacos.Nacos.main(Nacos.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.PropertiesLauncher.main(PropertiesLauncher.java:467)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService': Unsatisfied dependency expressed through field 'dumpService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'externalDumpService': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Nacos Server did not start because dumpservice bean construction failure :
+No DataSource set
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1402)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'externalDumpService': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Nacos Server did not start because dumpservice bean construction failure :
+No DataSource set
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1761)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 41 common frames omitted
+Caused by: com.alibaba.nacos.api.exception.NacosException: Nacos Server did not start because dumpservice bean construction failure :
+No DataSource set
+	at com.alibaba.nacos.config.server.service.dump.DumpService.dumpOperate(DumpService.java:236)
+	at com.alibaba.nacos.config.server.service.dump.ExternalDumpService.init(ExternalDumpService.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136)
+	... 53 common frames omitted
+Caused by: java.lang.IllegalStateException: No DataSource set
+	at org.springframework.util.Assert.state(Assert.java:73)
+	at org.springframework.jdbc.support.JdbcAccessor.obtainDataSource(JdbcAccessor.java:77)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:371)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:452)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:462)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:473)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:480)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePersistServiceImpl.findConfigMaxId(ExternalStoragePersistServiceImpl.java:659)
+	at com.alibaba.nacos.config.server.service.dump.processor.DumpAllProcessor.process(DumpAllProcessor.java:51)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.dumpConfigInfo(DumpService.java:293)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.dumpOperate(DumpService.java:205)
+	... 61 common frames omitted
+2023-10-26 16:31:07,439 WARN [WatchFileCenter] start close
+
+2023-10-26 16:31:07,440 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/data/tps
+
+2023-10-26 16:31:07,441 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/conf
+
+2023-10-26 16:31:07,441 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /home/nacos/data/loader
+
+2023-10-26 16:31:07,441 WARN [WatchFileCenter] already closed
+
+2023-10-26 16:31:07,442 WARN [NotifyCenter] Start destroying Publisher
+
+2023-10-26 16:31:07,442 WARN [NotifyCenter] Destruction of the end
+
+2023-10-26 16:31:07,442 ERROR Nacos failed to start, please see /home/nacos/logs/nacos.log for more details.
+
+2023-10-26 16:31:07,451 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+2023-10-26 16:31:07,453 ERROR Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memoryMonitor' defined in URL [jar:file:/home/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-2.0.2.jar!/com/alibaba/nacos/config/server/monitor/MemoryMonitor.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService': Unsatisfied dependency expressed through field 'dumpService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'externalDumpService': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Nacos Server did not start because dumpservice bean construction failure :
+No DataSource set
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.alibaba.nacos.Nacos.main(Nacos.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58)
+	at org.springframework.boot.loader.PropertiesLauncher.main(PropertiesLauncher.java:467)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService': Unsatisfied dependency expressed through field 'dumpService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'externalDumpService': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Nacos Server did not start because dumpservice bean construction failure :
+No DataSource set
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1402)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:591)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'externalDumpService': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Nacos Server did not start because dumpservice bean construction failure :
+No DataSource set
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1761)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595)
+	... 41 common frames omitted
+Caused by: com.alibaba.nacos.api.exception.NacosException: Nacos Server did not start because dumpservice bean construction failure :
+No DataSource set
+	at com.alibaba.nacos.config.server.service.dump.DumpService.dumpOperate(DumpService.java:236)
+	at com.alibaba.nacos.config.server.service.dump.ExternalDumpService.init(ExternalDumpService.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136)
+	... 53 common frames omitted
+Caused by: java.lang.IllegalStateException: No DataSource set
+	at org.springframework.util.Assert.state(Assert.java:73)
+	at org.springframework.jdbc.support.JdbcAccessor.obtainDataSource(JdbcAccessor.java:77)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:371)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:452)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:462)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:473)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:480)
+	at com.alibaba.nacos.config.server.service.repository.extrnal.ExternalStoragePersistServiceImpl.findConfigMaxId(ExternalStoragePersistServiceImpl.java:659)
+	at com.alibaba.nacos.config.server.service.dump.processor.DumpAllProcessor.process(DumpAllProcessor.java:51)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.dumpConfigInfo(DumpService.java:293)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.dumpOperate(DumpService.java:205)
+	... 61 common frames omitted
+2023-10-26 16:35:09,588 WARN [HttpClientBeanHolder] Start destroying common HttpClient
+
+2023-10-26 16:35:09,588 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2023-10-26 16:35:09,588 WARN [ConfigServer-HttpClientManager] Start destroying NacosRestTemplate
+
+2023-10-26 16:35:09,589 WARN [ThreadPoolManager] Destruction of the end
+
+2023-10-26 16:35:09,593 WARN [HttpClientBeanHolder] Destruction of the end
+
+2023-10-26 16:35:09,593 WARN [ConfigServer-HttpClientManager] Destruction of the end
+

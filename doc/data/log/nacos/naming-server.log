@@ -1,0 +1,400 @@
+2023-10-26 11:41:42,069 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-10-26 11:41:42,069 WARN Using naming.distro config to replace core.distro config
+
+2023-10-26 11:41:42,196 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-10-26 11:41:42,197 INFO listen for service meta change
+
+2023-10-26 11:41:42,202 INFO upgrade.state file is not exist
+
+2023-10-26 11:47:56,392 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-10-26 11:47:56,407 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-10-26 11:47:57,300 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-10-26 11:47:57,300 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-10-26 11:48:18,494 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-10-26 11:48:18,494 WARN Using naming.distro config to replace core.distro config
+
+2023-10-26 11:48:18,591 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-10-26 11:48:18,592 INFO listen for service meta change
+
+2023-10-26 14:49:08,602 INFO Client connection 172.18.0.6:44010#true connect
+
+2023-10-26 14:49:11,006 INFO Client connection 172.18.0.6:8607#true connect
+
+2023-10-26 14:49:11,008 INFO Client change for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-gateway', ephemeral=true, revision=0}, 172.18.0.6:8607#true
+
+2023-10-26 14:49:27,948 INFO Client connection 172.18.0.9:41535#true connect
+
+2023-10-26 14:49:29,882 INFO Client connection 172.18.0.8:34043#true connect
+
+2023-10-26 14:49:30,700 INFO Client connection 172.18.0.8:8602#true connect
+
+2023-10-26 14:49:30,700 INFO Client change for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-picture', ephemeral=true, revision=0}, 172.18.0.8:8602#true
+
+2023-10-26 14:49:36,051 INFO Client connection 172.18.0.7:46063#true connect
+
+2023-10-26 14:49:37,039 INFO Client connection 172.18.0.7:8603#true connect
+
+2023-10-26 14:49:37,039 INFO Client change for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-web', ephemeral=true, revision=0}, 172.18.0.7:8603#true
+
+2023-10-26 14:49:54,993 INFO Client connection 172.18.0.9:44693#true connect
+
+2023-10-26 14:50:00,417 INFO Client connection 172.18.0.9:41535#true disconnect, remove instances and subscribers
+
+2023-10-26 14:50:19,110 INFO Client connection 172.18.0.9:42302#true connect
+
+2023-10-26 14:50:30,418 INFO Client connection 172.18.0.9:44693#true disconnect, remove instances and subscribers
+
+2023-10-26 14:50:43,067 INFO Client connection 172.18.0.9:55399#true connect
+
+2023-10-26 14:50:50,419 INFO Client connection 172.18.0.9:42302#true disconnect, remove instances and subscribers
+
+2023-10-26 14:51:05,881 INFO Client connection 172.18.0.9:46285#true connect
+
+2023-10-26 14:51:15,419 INFO Client connection 172.18.0.9:55399#true disconnect, remove instances and subscribers
+
+2023-10-26 14:51:26,636 INFO Client connection 172.18.0.9:45652#true connect
+
+2023-10-26 14:51:40,420 INFO Client connection 172.18.0.9:46285#true disconnect, remove instances and subscribers
+
+2023-10-26 14:51:48,032 INFO Client connection 172.18.0.9:45525#true connect
+
+2023-10-26 14:52:00,420 INFO Client connection 172.18.0.9:45652#true disconnect, remove instances and subscribers
+
+2023-10-26 14:52:09,295 INFO Client connection 172.18.0.9:41380#true connect
+
+2023-10-26 14:52:20,421 INFO Client connection 172.18.0.9:45525#true disconnect, remove instances and subscribers
+
+2023-10-26 14:52:31,821 INFO Client connection 172.18.0.9:56770#true connect
+
+2023-10-26 14:52:40,422 INFO Client connection 172.18.0.9:41380#true disconnect, remove instances and subscribers
+
+2023-10-26 14:52:52,077 INFO Client connection 172.18.0.9:38152#true connect
+
+2023-10-26 14:53:05,422 INFO Client connection 172.18.0.9:56770#true disconnect, remove instances and subscribers
+
+2023-10-26 14:53:13,596 INFO Client connection 172.18.0.9:35369#true connect
+
+2023-10-26 14:53:25,422 INFO Client connection 172.18.0.9:38152#true disconnect, remove instances and subscribers
+
+2023-10-26 14:53:35,850 INFO Client connection 172.18.0.9:50641#true connect
+
+2023-10-26 14:53:45,423 INFO Client connection 172.18.0.9:35369#true disconnect, remove instances and subscribers
+
+2023-10-26 14:53:56,519 INFO Client connection 172.18.0.9:55641#true connect
+
+2023-10-26 14:54:10,424 INFO Client connection 172.18.0.9:50641#true disconnect, remove instances and subscribers
+
+2023-10-26 14:54:17,792 INFO Client connection 172.18.0.9:49362#true connect
+
+2023-10-26 14:54:30,424 INFO Client connection 172.18.0.9:55641#true disconnect, remove instances and subscribers
+
+2023-10-26 14:54:38,841 INFO Client connection 172.18.0.9:56984#true connect
+
+2023-10-26 14:54:50,424 INFO Client connection 172.18.0.9:49362#true disconnect, remove instances and subscribers
+
+2023-10-26 14:54:59,481 INFO Client connection 172.18.0.9:42293#true connect
+
+2023-10-26 14:55:10,425 INFO Client connection 172.18.0.9:56984#true disconnect, remove instances and subscribers
+
+2023-10-26 14:59:53,058 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-10-26 14:59:53,058 WARN Using naming.distro config to replace core.distro config
+
+2023-10-26 14:59:54,467 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-10-26 14:59:54,475 INFO listen for service meta change
+
+2023-10-26 15:00:16,746 INFO Client connection 172.18.0.4:37383#true connect
+
+2023-10-26 15:00:18,353 INFO Client connection 172.18.0.9:58199#true connect
+
+2023-10-26 15:00:18,384 INFO Client connection 172.18.0.4:8607#true connect
+
+2023-10-26 15:00:18,391 INFO Client change for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-gateway', ephemeral=true, revision=0}, 172.18.0.4:8607#true
+
+2023-10-26 15:00:24,431 INFO Client connection 172.18.0.10:36995#true connect
+
+2023-10-26 15:00:25,846 INFO Client connection 172.18.0.10:8603#true connect
+
+2023-10-26 15:00:25,846 INFO Client change for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-web', ephemeral=true, revision=0}, 172.18.0.10:8603#true
+
+2023-10-26 15:00:39,674 INFO Client connection 172.18.0.8:36041#true connect
+
+2023-10-26 15:00:57,197 INFO Client connection 172.18.0.9:58199#true disconnect, remove instances and subscribers
+
+2023-10-26 15:01:12,197 INFO Client connection 172.18.0.10:36995#true disconnect, remove instances and subscribers
+
+2023-10-26 15:01:12,197 INFO Client connection 172.18.0.8:36041#true disconnect, remove instances and subscribers
+
+2023-10-26 15:01:13,395 INFO [AUTO-DELETE-IP] service: Service{namespace='prod', group='DEFAULT_GROUP', name='action-gateway', ephemeral=true, revision=1}, ip: {"ip":"172.18.0.4","port":8607,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"172.18.0.4#8607#DEFAULT#DEFAULT_GROUP@@action-gateway"},"lastHeartBeatTime":1698303643341,"metadataId":"172.18.0.4:8607:DEFAULT"}
+
+2023-10-26 15:01:13,396 INFO Client remove for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-gateway', ephemeral=true, revision=1}, 172.18.0.4:8607#true
+
+2023-10-26 15:01:17,197 INFO Client connection 172.18.0.4:8607#true disconnect, remove instances and subscribers
+
+2023-10-26 15:01:17,198 INFO Client connection 172.18.0.4:37383#true disconnect, remove instances and subscribers
+
+2023-10-26 15:01:20,850 INFO [AUTO-DELETE-IP] service: Service{namespace='prod', group='DEFAULT_GROUP', name='action-web', ephemeral=true, revision=1}, ip: {"ip":"172.18.0.10","port":8603,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"172.18.0.10#8603#DEFAULT#DEFAULT_GROUP@@action-web"},"lastHeartBeatTime":1698303646184,"metadataId":"172.18.0.10:8603:DEFAULT"}
+
+2023-10-26 15:01:20,850 INFO Client remove for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-web', ephemeral=true, revision=1}, 172.18.0.10:8603#true
+
+2023-10-26 15:01:22,198 INFO Client connection 172.18.0.10:8603#true disconnect, remove instances and subscribers
+
+2023-10-26 15:01:52,186 INFO Client connection 172.18.0.4:37383#true connect
+
+2023-10-26 15:01:52,235 INFO Client connection 172.18.0.4:8607#true connect
+
+2023-10-26 15:01:52,235 INFO Client change for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-gateway', ephemeral=true, revision=2}, 172.18.0.4:8607#true
+
+2023-10-26 15:01:52,915 INFO Client connection 172.18.0.10:36995#true connect
+
+2023-10-26 15:01:53,720 INFO Client connection 172.18.0.10:8603#true connect
+
+2023-10-26 15:01:53,721 INFO Client change for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-web', ephemeral=true, revision=2}, 172.18.0.10:8603#true
+
+2023-10-26 15:02:05,433 INFO Client connection 172.18.0.7:37613#true connect
+
+2023-10-26 15:02:06,464 INFO Client connection 172.18.0.7:8602#true connect
+
+2023-10-26 15:02:06,465 INFO Client change for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-picture', ephemeral=true, revision=0}, 172.18.0.7:8602#true
+
+2023-10-26 15:02:12,096 INFO Client connection 172.18.0.8:48355#true connect
+
+2023-10-26 15:02:36,434 INFO Client connection 172.18.0.8:54032#true connect
+
+2023-10-26 15:02:47,252 INFO Client connection 172.18.0.8:48355#true disconnect, remove instances and subscribers
+
+2023-10-26 15:02:59,764 INFO Client connection 172.18.0.8:56451#true connect
+
+2023-10-26 15:03:12,252 INFO Client connection 172.18.0.8:54032#true disconnect, remove instances and subscribers
+
+2023-10-26 15:03:24,118 INFO Client connection 172.18.0.8:45129#true connect
+
+2023-10-26 15:03:32,254 INFO Client connection 172.18.0.8:56451#true disconnect, remove instances and subscribers
+
+2023-10-26 15:03:45,664 INFO Client connection 172.18.0.8:52810#true connect
+
+2023-10-26 15:03:57,254 INFO Client connection 172.18.0.8:45129#true disconnect, remove instances and subscribers
+
+2023-10-26 15:04:08,105 INFO Client connection 172.18.0.2:35129#true connect
+
+2023-10-26 15:04:17,254 INFO Client connection 172.18.0.8:52810#true disconnect, remove instances and subscribers
+
+2023-10-26 15:04:27,865 INFO Client connection 172.18.0.2:42504#true connect
+
+2023-10-26 15:04:42,255 INFO Client connection 172.18.0.2:35129#true disconnect, remove instances and subscribers
+
+2023-10-26 15:04:48,504 INFO Client connection 172.18.0.2:42527#true connect
+
+2023-10-26 15:05:02,255 INFO Client connection 172.18.0.2:42504#true disconnect, remove instances and subscribers
+
+2023-10-26 15:05:11,964 INFO Client connection 172.18.0.2:54554#true connect
+
+2023-10-26 15:05:22,255 INFO Client connection 172.18.0.2:42527#true disconnect, remove instances and subscribers
+
+2023-10-26 15:05:32,237 INFO Client connection 172.18.0.2:33216#true connect
+
+2023-10-26 15:05:47,256 INFO Client connection 172.18.0.2:54554#true disconnect, remove instances and subscribers
+
+2023-10-26 15:05:52,571 INFO Client connection 172.18.0.2:46660#true connect
+
+2023-10-26 15:06:07,256 INFO Client connection 172.18.0.2:33216#true disconnect, remove instances and subscribers
+
+2023-10-26 15:06:16,556 INFO Client connection 172.18.0.2:42977#true connect
+
+2023-10-26 15:06:27,257 INFO Client connection 172.18.0.2:46660#true disconnect, remove instances and subscribers
+
+2023-10-26 15:06:36,808 INFO Client connection 172.18.0.2:34602#true connect
+
+2023-10-26 15:06:52,257 INFO Client connection 172.18.0.2:42977#true disconnect, remove instances and subscribers
+
+2023-10-26 15:06:57,717 INFO Client connection 172.18.0.2:34052#true connect
+
+2023-10-26 15:07:12,258 INFO Client connection 172.18.0.2:34602#true disconnect, remove instances and subscribers
+
+2023-10-26 15:07:18,102 INFO Client connection 172.18.0.2:42120#true connect
+
+2023-10-26 15:07:32,258 INFO Client connection 172.18.0.2:34052#true disconnect, remove instances and subscribers
+
+2023-10-26 15:07:37,682 INFO Client connection 172.18.0.2:36167#true connect
+
+2023-10-26 15:07:52,259 INFO Client connection 172.18.0.2:42120#true disconnect, remove instances and subscribers
+
+2023-10-26 15:08:12,259 INFO Client connection 172.18.0.2:36167#true disconnect, remove instances and subscribers
+
+2023-10-26 15:08:21,483 INFO [AUTO-DELETE-IP] service: Service{namespace='prod', group='DEFAULT_GROUP', name='action-picture', ephemeral=true, revision=1}, ip: {"ip":"172.18.0.7","port":8602,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"172.18.0.7#8602#DEFAULT#DEFAULT_GROUP@@action-picture"},"lastHeartBeatTime":1698304067519,"metadataId":"172.18.0.7:8602:DEFAULT"}
+
+2023-10-26 15:08:21,484 INFO Client remove for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-picture', ephemeral=true, revision=1}, 172.18.0.7:8602#true
+
+2023-10-26 15:08:22,256 INFO [AUTO-DELETE-IP] service: Service{namespace='prod', group='DEFAULT_GROUP', name='action-gateway', ephemeral=true, revision=3}, ip: {"ip":"172.18.0.4","port":8607,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"172.18.0.4#8607#DEFAULT#DEFAULT_GROUP@@action-gateway"},"lastHeartBeatTime":1698304067878,"metadataId":"172.18.0.4:8607:DEFAULT"}
+
+2023-10-26 15:08:22,256 INFO Client remove for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-gateway', ephemeral=true, revision=3}, 172.18.0.4:8607#true
+
+2023-10-26 15:08:22,260 INFO Client connection 172.18.0.4:8607#true disconnect, remove instances and subscribers
+
+2023-10-26 15:08:22,260 INFO Client connection 172.18.0.10:36995#true disconnect, remove instances and subscribers
+
+2023-10-26 15:08:22,260 INFO Client connection 172.18.0.7:8602#true disconnect, remove instances and subscribers
+
+2023-10-26 15:08:22,260 INFO Client connection 172.18.0.4:37383#true disconnect, remove instances and subscribers
+
+2023-10-26 15:08:22,260 INFO Client connection 172.18.0.7:37613#true disconnect, remove instances and subscribers
+
+2023-10-26 15:08:28,741 INFO [AUTO-DELETE-IP] service: Service{namespace='prod', group='DEFAULT_GROUP', name='action-web', ephemeral=true, revision=3}, ip: {"ip":"172.18.0.10","port":8603,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"172.18.0.10#8603#DEFAULT#DEFAULT_GROUP@@action-web"},"lastHeartBeatTime":1698304074612,"metadataId":"172.18.0.10:8603:DEFAULT"}
+
+2023-10-26 15:08:28,741 INFO Client remove for service Service{namespace='prod', group='DEFAULT_GROUP', name='action-web', ephemeral=true, revision=3}, 172.18.0.10:8603#true
+
+2023-10-26 15:08:32,260 INFO Client connection 172.18.0.10:8603#true disconnect, remove instances and subscribers
+
+2023-10-26 15:09:33,877 WARN namespace : prod, [DEFAULT_GROUP@@action-picture] services are automatically cleaned
+
+2023-10-26 15:09:33,878 WARN namespace : prod, [DEFAULT_GROUP@@action-gateway] services are automatically cleaned
+
+2023-10-26 15:09:33,878 WARN namespace : prod, [DEFAULT_GROUP@@action-web] services are automatically cleaned
+
+2023-10-26 15:10:14,307 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-10-26 15:10:14,315 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-10-26 15:10:15,218 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-10-26 15:10:15,218 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-10-26 15:10:24,371 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-10-26 15:10:24,371 WARN Using naming.distro config to replace core.distro config
+
+2023-10-26 15:10:24,473 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-10-26 15:10:24,474 INFO listen for service meta change
+
+2023-10-26 15:25:43,287 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-10-26 15:25:43,299 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-10-26 15:25:43,597 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-10-26 15:25:43,597 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-10-26 16:11:29,338 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-10-26 16:11:29,338 WARN Using naming.distro config to replace core.distro config
+
+2023-10-26 16:11:29,666 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-10-26 16:11:29,667 INFO listen for service meta change
+
+2023-10-26 16:16:54,013 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2023-10-26 16:16:54,022 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2023-10-26 16:16:54,622 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-10-26 16:16:54,622 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2023-10-26 16:31:05,045 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2023-10-26 16:31:05,045 WARN Using naming.distro config to replace core.distro config
+
+2023-10-26 16:31:05,325 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-10-26 16:31:05,326 INFO listen for service meta change
+
+2023-10-26 16:31:05,331 INFO upgrade.state file is not exist
+
