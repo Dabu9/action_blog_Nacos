@@ -1,0 +1,8 @@
+2023-10-27 08:52:03,381 INFO DEFAULT_GROUP@@action-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.192.107:8607:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-10-27 08:52:03,383 INFO [IP-UPDATED] namespace: prod, service: DEFAULT_GROUP@@action-gateway, ips: 192.168.192.107:8607_true,
+
+2023-10-27 08:52:20,868 INFO DEFAULT_GROUP@@action-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.192.107:8607:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-10-27 08:52:20,868 INFO [IP-UPDATED] namespace: prod, service: DEFAULT_GROUP@@action-gateway, ips: 
+

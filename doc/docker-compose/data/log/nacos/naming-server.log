@@ -1,0 +1,22 @@
+2023-10-27 08:43:56,131 INFO GlobalConfig{taskDispatchPeriod=200, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=true, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2023-10-27 08:43:56,700 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2023-10-27 08:43:56,701 INFO listen for service meta change
+
+2023-10-27 08:44:01,111 INFO [NACOS-DISTRO] healthy server list changed, old: [42a199031ad1:8848], new: [42a199031ad1:8848]
+
+2023-10-27 08:52:03,261 INFO creating empty service prod:DEFAULT_GROUP@@action-gateway
+
+2023-10-27 08:52:03,371 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@action-gateway","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"prod","ipDeleteTimeout":30000,"lastModifiedMillis":1698367923262,"checksum":"f859f9ddb731e25966123ef5014656b9","clusterMap":{},"empty":true}
+
+2023-10-27 08:52:03,376 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.192.107#8607#DEFAULT#DEFAULT_GROUP@@action-gateway","ip":"192.168.192.107","port":8607,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@action-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1698367923261,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2023-10-27 08:52:03,379 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.prod##DEFAULT_GROUP@@action-gateway, value: {"instanceList":[{"instanceId":"192.168.192.107#8607#DEFAULT#DEFAULT_GROUP@@action-gateway","ip":"192.168.192.107","port":8607,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@action-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1698367923261,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2023-10-27 08:52:20,868 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.prod##DEFAULT_GROUP@@action-gateway, value: {"instanceList":[]}
+
+2023-10-27 08:54:46,702 WARN namespace : prod, [DEFAULT_GROUP@@action-gateway] services are automatically cleaned
+
+2023-10-27 08:54:46,711 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@action-gateway","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"prod","ipDeleteTimeout":30000,"lastModifiedMillis":1698367940868,"checksum":"48c801251cc2b433921bbae3d32ccf1c","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@action-gateway","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+

@@ -1,3 +1,7 @@
 spring:
   profiles:
-    active: prod
+    active: dev
+logging:
+  level:
+    org.springframework.cloud: DEBUG
+    com.alibaba.nacos.client.security: DEBUG

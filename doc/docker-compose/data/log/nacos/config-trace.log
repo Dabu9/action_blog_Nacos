@@ -1,0 +1,12 @@
+2023-10-27 08:51:50,818|42a199031ad1|action-gateway|dev|dev|unknown|-1|pull|not-found|-1|172.18.0.1
+2023-10-27 08:51:50,855|42a199031ad1|action-gateway.yaml|dev|dev|unknown|-1|pull|not-found|-1|172.18.0.1
+2023-10-27 08:51:50,892|42a199031ad1|action-gateway-dev.yaml|dev|dev|unknown|1698329164000|pull|ok|38746892|172.18.0.1
+2023-10-27 08:53:53,962|42a199031ad1|mogu-gateway|prod|prod|unknown|-1|pull|not-found|-1|172.18.0.6
+2023-10-27 08:53:53,978|42a199031ad1|mogu-gateway.yaml|prod|prod|unknown|-1|pull|not-found|-1|172.18.0.6
+2023-10-27 08:53:53,989|42a199031ad1|mogu-gateway-dev.yaml|prod|prod|unknown|-1|pull|not-found|-1|172.18.0.6
+2023-10-27 08:54:12,203|42a199031ad1|mogu-gateway|prod|prod|unknown|-1|pull|not-found|-1|172.18.0.6
+2023-10-27 08:54:12,220|42a199031ad1|mogu-gateway.yaml|prod|prod|unknown|-1|pull|not-found|-1|172.18.0.6
+2023-10-27 08:54:12,234|42a199031ad1|mogu-gateway-dev.yaml|prod|prod|unknown|-1|pull|not-found|-1|172.18.0.6
+2023-10-27 08:54:30,243|42a199031ad1|mogu-gateway|prod|prod|unknown|-1|pull|not-found|-1|172.18.0.6
+2023-10-27 08:54:30,259|42a199031ad1|mogu-gateway.yaml|prod|prod|unknown|-1|pull|not-found|-1|172.18.0.6
+2023-10-27 08:54:30,270|42a199031ad1|mogu-gateway-dev.yaml|prod|prod|unknown|-1|pull|not-found|-1|172.18.0.6

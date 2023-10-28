@@ -1,0 +1,46 @@
+2023-10-27 08:43:56,121 INFO raft peers changed: [Member{ip='42a199031ad1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2023-10-27 08:43:56,152 INFO initializing Raft sub-system
+
+2023-10-27 08:43:56,153 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2023-10-27 08:43:56,155 INFO cache loaded, datum count: 0, current term: 0
+
+2023-10-27 08:43:56,155 INFO finish to load data from disk, cost: 3 ms.
+
+2023-10-27 08:43:56,159 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2023-10-27 08:43:56,684 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2023-10-27 08:43:56,701 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2023-10-27 08:44:01,107 WARN start to close old raft protocol!!!
+
+2023-10-27 08:44:01,107 WARN stop old raft protocol task for notifier
+
+2023-10-27 08:44:01,107 WARN stop old raft protocol task for master task
+
+2023-10-27 08:44:01,107 WARN stop old raft protocol task for heartbeat task
+
+2023-10-27 08:44:01,107 WARN clean old cache datum for old raft
+
+2023-10-27 08:44:01,107 WARN start to close old raft protocol!!!
+
+2023-10-27 08:44:01,107 WARN stop old raft protocol task for notifier
+
+2023-10-27 08:44:01,107 WARN stop old raft protocol task for master task
+
+2023-10-27 08:44:01,107 WARN stop old raft protocol task for heartbeat task
+
+2023-10-27 08:44:01,107 WARN clean old cache datum for old raft
+
+2023-10-27 08:44:01,107 WARN start to move old raft protocol metadata
+
+2023-10-27 08:44:01,110 WARN start to move old raft protocol metadata
+
+2023-10-27 08:44:01,110 INFO raft peers changed: [Member{ip='42a199031ad1', port=8848, state=UP, extendInfo={lastRefreshTime=1698367441109, raftPort=7848, version=1.4.1}}]
+
+2023-10-27 08:52:03,266 INFO add listener: com.alibaba.nacos.naming.iplist.prod##DEFAULT_GROUP@@action-gateway
+
+2023-10-27 08:54:46,708 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.prod##DEFAULT_GROUP@@action-gateway
+

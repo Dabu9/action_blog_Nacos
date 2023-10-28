@@ -1,0 +1,150 @@
+2023-10-27 08:43:51,220 INFO Starting Nacos v1.4.1 on 42a199031ad1 with PID 43 (/home/nacos/target/nacos-server.jar started by root in /home/nacos)
+
+2023-10-27 08:43:51,248 INFO The following profiles are active: standalone
+
+2023-10-27 08:43:54,140 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2ce6c6ec' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-27 08:43:54,149 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-10-27 08:43:54,542 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-10-27 08:43:54,579 INFO Starting service [Tomcat]
+
+2023-10-27 08:43:54,580 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2023-10-27 08:43:54,941 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2023-10-27 08:43:54,974 INFO Initializing Spring embedded WebApplicationContext
+
+2023-10-27 08:43:54,975 INFO Root WebApplicationContext: initialization completed in 3608 ms
+
+2023-10-27 08:43:55,319 INFO HikariPool-1 - Starting...
+
+2023-10-27 08:43:55,526 INFO HikariPool-1 - Start completed.
+
+2023-10-27 08:43:56,048 INFO Nacos-related cluster resource initialization
+
+2023-10-27 08:43:56,070 INFO The cluster resource is initialized
+
+2023-10-27 08:43:56,532 INFO Reflections took 34 ms to scan 1 urls, producing 4 keys and 6 values 
+
+2023-10-27 08:43:56,560 INFO Reflections took 4 ms to scan 1 urls, producing 6 keys and 26 values 
+
+2023-10-27 08:43:56,575 INFO Reflections took 3 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2023-10-27 08:43:56,585 INFO Reflections took 2 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2023-10-27 08:43:57,389 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2023-10-27 08:43:57,550 INFO Adding welcome page: class path resource [static/index.html]
+
+2023-10-27 08:43:58,190 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2023-10-27 08:43:58,224 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@226f885f, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b5bc39d, org.springframework.security.web.header.HeaderWriterFilter@21362712, org.springframework.security.web.csrf.CsrfFilter@5910de75, org.springframework.security.web.authentication.logout.LogoutFilter@1df98368, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1494b84d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4628b1d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2cd2c8fe, org.springframework.security.web.session.SessionManagementFilter@200a26bc, org.springframework.security.web.access.ExceptionTranslationFilter@1f130eaf]
+
+2023-10-27 08:43:58,515 INFO Initializing ExecutorService 'taskScheduler'
+
+2023-10-27 08:43:58,538 INFO Exposing 16 endpoint(s) beneath base path '/actuator'
+
+2023-10-27 08:43:58,643 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2023-10-27 08:43:58,650 INFO Started Nacos in 9.274 seconds (JVM running for 10.244)
+
+2023-10-27 08:43:58,651 INFO Nacos started successfully in stand alone mode. use external storage
+
+2023-10-27 08:44:35,077 INFO A cookie header was received [name":"首页","navbarLevel":1,"summary":"首页","icon":"el-icon-remove","url":"/","sort":7,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"e186d3225e1405a0ee73995347b1c239","status":1,"createTime":"2021-02-23 13:17:30","updateTime":"2021-02-23 17:05:31"},{"name":"关于我","navbarLevel":1,"summary":"关于我","icon":"el-icon-user","url":"/about","sort":6,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"c3e10b3c8d576ed24387934d5d0c0b81","status":1,"createTime":"2021-02-23 13:18:43","updateTime":"2021-02-23 18:06:14"},{"name":"归档","navbarLevel":1,"summary":"归档","icon":"el-icon-camera","url":"/sort","sort":5,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"55bca78a37694c5a72b2910adde12d96","status":1,"createTime":"2021-02-23 13:19:11","updateTime":"2021-02-23 15:30:37"},{"name":"分类","navbarLevel":1,"summary":"博客分类","icon":"el-icon-folder-checked","url":"/classify","sort":4,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"abe6c960aa65fba7f728480fd933807f","status":1,"createTime":"2021-02-23 13:19:38","updateTime":"2021-02-23 15:30:43"},{"name":"标签","navbarLevel":1,"summary":"博客标签","icon":"el-icon-headset","url":"/tag","sort":3,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"0de9cfa4227c80530e43c534712156f5","status":1,"createTime":"2021-02-23 13:20:01","updateTime":"2021-02-23 15:30:47"},{"name":"专题","navbarLevel":1,"summary":"博客专题","icon":"el-icon-data-analysis","url":"/subject","sort":2,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"40277498960cfc2fb428c1ee4429676c","status":1,"createTime":"2021-02-23 13:20:22","updateTime":"2021-02-23 15:30:50"},{"name":"留言板","navbarLevel":1,"summary":"留言板","icon":"el-icon-money","url":"/messageBoard","sort":1,"isShow":1,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"0d8a13137502ed28649888cfea40ee80","status":1,"createTime":"2021-02-23 13:20:47","updateTime":"2021-02-23 15:30:53"},{"name":"博客源码","navbarLevel":1,"summary":"博客源码","icon":"el-icon-zoom-in","url":"https://gitee.com/moxi159753/action_blog_v2","sort":0,"isShow":1,"isJumpExternalUrl":1,"childWebNavbar":[{"name":"博客源码","navbarLevel":2,"summary":"阿盛博客源码","icon":"el-icon-tickets","parentUid":"94d59134ab64aac6d7994c80c6698f8a","url":"https://gitee.com/moxi159753/action_blog_v2","sort":0,"isShow":1,"isJumpExternalUrl":1,"uid":"51f9db7329ccd382255c01f4ef371108","status":1,"createTime":"2021-02-27 13:06:13","updateTime":"2021-02-27 13:06:13"},{"name":"学习笔记","navbarLevel":2,"summary":"学习笔记","icon":"el-icon-folder-opened","parentUid":"94d59134ab64aac6d7994c80c6698f8a","url":"https://gitee.com/moxi159753/LearningNotes","sort":0,"isShow":1,"isJumpExternalUrl":1,"uid":"25bdfd2a854ea4af1bf1adcd676a711b","status":1,"createTime":"2021-02-27 12:43:40","updateTime":"2021-02-27 12:43:40"}],"uid":"94d59134ab64aac6d7994c80c6698f8a","status":1,"createTime":"2021-02-23 18:07:24","updateTime":"2021-02-27 13:05:34"},{"name":"博客详情","navbarLevel":1,"summary":"博客详情页","icon":"el-icon-user","url":"/info","sort":0,"isShow":0,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"a26eb81119b47bb34f733c4c38432021","status":1,"createTime":"2021-02-23 18:40:54","updateTime":"2021-02-23 18:40:54"},{"name":"博客列表","navbarLevel":1,"summary":"博客列表","icon":"el-icon-picture-outline-round","url":"/list","sort":0,"isShow":0,"isJumpExternalUrl":0,"childWebNavbar":[],"uid":"7fb0684401ff99073c64dc956a9cb28a","status":1,"createTime":"2021-02-23 18:57:19","updateTime":"2021-02-23 18:57:19"}]; Admin-Token=bearer_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhZG1pblVpZCI6IjFmMDFjZDFkMmY0NzQ3NDNiMjQxZDc0MDA4YjEyMzMzIiwicm9sZSI6Im51bGzotoXnuqfnrqHnkIYiLCJjcmVhdGVUaW1lIjoxNjk4MjgxODcwMjA3LCJzdWIiOiJhZG1pbiIsImlzcyI6ImFjdGlvbmJsb2ciLCJhdWQiOiIwOThmNmJjZDQ2MjFkMzczY2FkZTRlODMyNjI3YjRmNiIsImV4cCI6MTY5ODI4NTQ3MCwibmJmIjoxNjk4MjgxODcwfQ.8IbjUqy_lFM3_0foVNypp2ThOetkxQVWaX10wuWcOY4; token=aacfa951a9554134bed22a4e9fc3c66e] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+
+2023-10-27 08:44:35,084 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-10-27 08:44:35,085 INFO Initializing Servlet 'dispatcherServlet'
+
+2023-10-27 08:44:35,094 INFO Completed initialization in 8 ms
+
+2023-10-27 08:53:56,735 INFO [capacityManagement] start correct usage
+
+2023-10-27 08:53:56,768 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-27 08:53:57,086 WARN clearConfigHistory start
+
+2023-10-27 08:59:57,133 ERROR CONSOLE
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:420)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:366)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:66)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:405)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1233)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:97)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.nacos.core.auth.AuthFilter.doFilter(AuthFilter.java:103)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:209)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:94)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2023-10-27 09:03:56,771 INFO [capacityManagement] start correct usage
+
+2023-10-27 09:03:56,773 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-10-27 09:03:57,095 WARN clearConfigHistory start
+

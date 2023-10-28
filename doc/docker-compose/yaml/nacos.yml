@@ -1,10 +1,10 @@
 version: '3.1'
 services:
   nacos:
-    image: registry.cn-shenzhen.aliyuncs.com/mogublog/nacos-server
+    image: nacos/nacos-server:1.4.1
     container_name: nacos
     env_file:
-      - ../../data/nacos/nacos-config.env
+      - nacos/nacos-config.env
     volumes:
       - ../log/nacos/:/home/nacos/logs
       - ./nacos/custom.properties:/home/nacos/init.d/custom.properties

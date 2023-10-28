@@ -1,0 +1,34 @@
+2023-10-27 08:52:04,383 INFO DEFAULT_GROUP@@action-gateway is changed, add it to push queue.
+
+2023-10-27 08:52:04,410 INFO serviceName: DEFAULT_GROUP@@action-gateway changed, schedule push for: 172.22.160.1:49421, agent: Nacos-Java-Client:v1.4.1, key: 172.22.160.1,49421,506792504406
+
+2023-10-27 08:52:04,411 INFO send udp packet: 172.22.160.1,49421,506792504406
+
+2023-10-27 08:52:04,412 INFO serviceName: DEFAULT_GROUP@@action-gateway changed, schedule push for: 172.22.160.1:49421, agent: Nacos-Java-Client:v1.4.1, key: 172.22.160.1,49421,506792504406
+
+2023-10-27 08:52:04,413 INFO send udp packet: 172.22.160.1,49421,506792504406
+
+2023-10-27 08:52:04,421 INFO received ack: {"type": "push-ack", "lastRefTime":"506792504406", "data":""} from: 172.22.160.1:49421, cost: 8 ms, unacked: 0, total push: 1
+
+2023-10-27 08:52:04,427 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.22.160.1,49421,506792504406, ack json: {"type": "push-ack", "lastRefTime":"506792504406", "data":""}
+	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+2023-10-27 08:52:21,869 INFO DEFAULT_GROUP@@action-gateway is changed, add it to push queue.
+
+2023-10-27 08:52:21,870 INFO serviceName: DEFAULT_GROUP@@action-gateway changed, schedule push for: 172.22.160.1:49421, agent: Nacos-Java-Client:v1.4.1, key: 172.22.160.1,49421,524258331481
+
+2023-10-27 08:52:21,871 INFO send udp packet: 172.22.160.1,49421,524258331481
+
+2023-10-27 08:52:21,872 INFO serviceName: DEFAULT_GROUP@@action-gateway changed, schedule push for: 172.22.160.1:49421, agent: Nacos-Java-Client:v1.4.1, key: 172.22.160.1,49421,524258331481
+
+2023-10-27 08:52:21,872 INFO send udp packet: 172.22.160.1,49421,524258331481
+
+2023-10-27 08:52:21,878 INFO received ack: {"type": "push-ack", "lastRefTime":"524258331481", "data":""} from: 172.22.160.1:49421, cost: 6 ms, unacked: 0, total push: 2
+
+2023-10-27 08:52:21,890 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.22.160.1,49421,524258331481, ack json: {"type": "push-ack", "lastRefTime":"524258331481", "data":""}
+	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:680)
+	at java.lang.Thread.run(Thread.java:748)

@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   mysql:
-    image: registry.cn-shenzhen.aliyuncs.com/mogublog/mysql
+    image: mysql:8 # 使用的镜像
     restart: always
     container_name: mysql
     environment:

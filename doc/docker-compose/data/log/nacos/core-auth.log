@@ -1,0 +1,302 @@
+2023-10-27 08:44:35,113 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:44:35,113 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:44:35,344 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:44:35,345 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:44:35,395 DEBUG access denied, request: GET /nacos/v1/cs/configs, reason: token expired!
+
+2023-10-27 08:44:37,457 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:44:37,735 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:44:37,805 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:44:37,806 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:44:37,811 DEBUG auth permission: Permission{resource=':*:config/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:44:40,436 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:44:40,437 DEBUG auth start, request: GET /nacos/v1/ns/catalog/services
+
+2023-10-27 08:44:40,443 DEBUG auth permission: Permission{resource=':*:naming/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:44:41,733 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:44:41,734 DEBUG auth start, request: GET /nacos/v1/ns/catalog/services
+
+2023-10-27 08:44:41,741 DEBUG auth permission: Permission{resource='dev:*:naming/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:45:47,061 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:45:47,062 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:45:47,070 DEBUG auth permission: Permission{resource=':*:config/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:45:48,754 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:45:48,756 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:45:48,760 DEBUG auth permission: Permission{resource='dev:*:config/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:45:54,081 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:45:54,082 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:45:54,082 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:45:54,083 DEBUG auth start, request: GET /nacos/v1/cs/configs/listener
+
+2023-10-27 08:45:54,086 DEBUG auth permission: Permission{resource='dev:dev:config/action-web-dev.yaml', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:45:54,086 DEBUG auth permission: Permission{resource='dev:dev:config/action-web-dev.yaml', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:45:54,102 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:45:54,103 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:45:54,108 DEBUG auth permission: Permission{resource='dev:dev:config/action-web-dev.yaml', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:45:54,110 WARN Invalid server identity value for damaha666 from 172.18.0.3
+
+2023-10-27 08:51:49,114 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:51:50,799 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:51:50,802 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:51:50,808 DEBUG auth permission: Permission{resource='dev:dev:config/action-gateway', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkwOX0.pfZmgcO7HuWYB5pS-0m4HrQvB0Om7b6-GM7tFjgLXVQ', globalAdmin=true}
+
+2023-10-27 08:51:50,846 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:51:50,847 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:51:50,851 DEBUG auth permission: Permission{resource='dev:dev:config/action-gateway.yaml', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkwOX0.pfZmgcO7HuWYB5pS-0m4HrQvB0Om7b6-GM7tFjgLXVQ', globalAdmin=true}
+
+2023-10-27 08:51:50,861 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:51:50,862 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:51:50,866 DEBUG auth permission: Permission{resource='dev:dev:config/action-gateway-dev.yaml', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkwOX0.pfZmgcO7HuWYB5pS-0m4HrQvB0Om7b6-GM7tFjgLXVQ', globalAdmin=true}
+
+2023-10-27 08:51:56,011 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:51:56,011 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:51:59,449 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:51:59,450 DEBUG auth start, request: GET /nacos/v1/ns/instance/list
+
+2023-10-27 08:51:59,455 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:51:59,556 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:51:59,557 DEBUG auth start, request: GET /nacos/v1/ns/service/list
+
+2023-10-27 08:51:59,561 DEBUG auth permission: Permission{resource='prod:*:naming/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:51:59,767 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:51:59,768 DEBUG auth start, request: GET /nacos/v1/ns/service/list
+
+2023-10-27 08:51:59,772 DEBUG auth permission: Permission{resource='prod:*:naming/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:00,509 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:00,510 DEBUG auth start, request: GET /nacos/v1/ns/instance/list
+
+2023-10-27 08:52:00,513 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:02,523 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:02,524 DEBUG auth start, request: GET /nacos/v1/ns/instance/list
+
+2023-10-27 08:52:02,528 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:03,253 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:03,254 DEBUG auth start, request: POST /nacos/v1/ns/instance
+
+2023-10-27 08:52:03,258 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='w'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:03,386 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:03,386 DEBUG auth start, request: GET /nacos/v1/ns/service/list
+
+2023-10-27 08:52:03,391 DEBUG auth permission: Permission{resource='prod:*:naming/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:03,406 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:03,406 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:03,407 DEBUG auth start, request: GET /nacos/v1/ns/instance/list
+
+2023-10-27 08:52:03,407 DEBUG auth start, request: POST /nacos/v1/cs/configs/listener
+
+2023-10-27 08:52:03,411 DEBUG auth permission: Permission{resource='dev:*:config/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkwOX0.pfZmgcO7HuWYB5pS-0m4HrQvB0Om7b6-GM7tFjgLXVQ', globalAdmin=true}
+
+2023-10-27 08:52:03,411 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:03,610 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:03,611 DEBUG auth start, request: POST /nacos/v1/cs/configs/listener
+
+2023-10-27 08:52:03,615 DEBUG auth permission: Permission{resource='dev:*:config/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkwOX0.pfZmgcO7HuWYB5pS-0m4HrQvB0Om7b6-GM7tFjgLXVQ', globalAdmin=true}
+
+2023-10-27 08:52:03,808 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:03,823 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:03,824 DEBUG auth start, request: GET /nacos/v1/ns/service/list
+
+2023-10-27 08:52:03,828 DEBUG auth permission: Permission{resource='prod:*:naming/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:04,438 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:04,438 DEBUG auth start, request: GET /nacos/v1/ns/instance/list
+
+2023-10-27 08:52:04,442 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:06,541 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:06,543 DEBUG auth start, request: GET /nacos/v1/ns/instance/list
+
+2023-10-27 08:52:06,548 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:08,269 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:08,272 DEBUG auth start, request: PUT /nacos/v1/ns/instance/beat
+
+2023-10-27 08:52:08,277 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='w'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:13,290 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:13,290 DEBUG auth start, request: PUT /nacos/v1/ns/instance/beat
+
+2023-10-27 08:52:13,296 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='w'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:14,456 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:14,457 DEBUG auth start, request: GET /nacos/v1/ns/instance/list
+
+2023-10-27 08:52:14,461 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:16,570 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:16,570 DEBUG auth start, request: GET /nacos/v1/ns/instance/list
+
+2023-10-27 08:52:16,574 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:18,316 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:18,316 DEBUG auth start, request: PUT /nacos/v1/ns/instance/beat
+
+2023-10-27 08:52:18,320 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='w'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:52:20,860 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:52:20,860 DEBUG auth start, request: DELETE /nacos/v1/ns/instance
+
+2023-10-27 08:52:20,865 DEBUG auth permission: Permission{resource='prod:DEFAULT_GROUP:naming/action-gateway', action='w'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTkxNn0.rxW9mfxX2uK_wNuIBpauqmhXJ8iYAYhxWDElwXLAwZg', globalAdmin=true}
+
+2023-10-27 08:53:53,458 WARN Invalid server identity value for damaha666 from 172.18.0.6
+
+2023-10-27 08:53:53,695 WARN Invalid server identity value for damaha666 from 172.18.0.6
+
+2023-10-27 08:53:53,696 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:53:53,958 DEBUG auth permission: Permission{resource='prod:prod:config/mogu-gateway', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NjAzM30.GETu-Yb1Qa6LnvyNibXiaxeQcTsfatoQS1SpnEipdG0', globalAdmin=true}
+
+2023-10-27 08:53:53,971 WARN Invalid server identity value for damaha666 from 172.18.0.6
+
+2023-10-27 08:53:53,972 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:53:53,975 DEBUG auth permission: Permission{resource='prod:prod:config/mogu-gateway.yaml', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NjAzM30.GETu-Yb1Qa6LnvyNibXiaxeQcTsfatoQS1SpnEipdG0', globalAdmin=true}
+
+2023-10-27 08:53:53,983 WARN Invalid server identity value for damaha666 from 172.18.0.6
+
+2023-10-27 08:53:53,983 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:53:53,986 DEBUG auth permission: Permission{resource='prod:prod:config/mogu-gateway-dev.yaml', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NjAzM30.GETu-Yb1Qa6LnvyNibXiaxeQcTsfatoQS1SpnEipdG0', globalAdmin=true}
+
+2023-10-27 08:54:11,965 WARN Invalid server identity value for damaha666 from 172.18.0.6
+
+2023-10-27 08:54:12,195 WARN Invalid server identity value for damaha666 from 172.18.0.6
+
+2023-10-27 08:54:12,195 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:54:12,200 DEBUG auth permission: Permission{resource='prod:prod:config/mogu-gateway', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NjA1Mn0.chTqJSCuK1-kRwBeOkuO1R4A8WRPhy3ilf9BsZ1uhd8', globalAdmin=true}
+
+2023-10-27 08:54:12,214 WARN Invalid server identity value for damaha666 from 172.18.0.6
+
+2023-10-27 08:54:12,215 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:54:12,218 DEBUG auth permission: Permission{resource='prod:prod:config/mogu-gateway.yaml', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NjA1Mn0.chTqJSCuK1-kRwBeOkuO1R4A8WRPhy3ilf9BsZ1uhd8', globalAdmin=true}
+
+2023-10-27 08:54:12,224 WARN Invalid server identity value for damaha666 from 172.18.0.6
+
+2023-10-27 08:54:12,225 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:54:12,229 DEBUG auth permission: Permission{resource='prod:prod:config/mogu-gateway-dev.yaml', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NjA1Mn0.chTqJSCuK1-kRwBeOkuO1R4A8WRPhy3ilf9BsZ1uhd8', globalAdmin=true}
+
+2023-10-27 08:54:30,004 WARN Invalid server identity value for damaha666 from 172.18.0.6
+
+2023-10-27 08:54:30,235 WARN Invalid server identity value for damaha666 from 172.18.0.6
+
+2023-10-27 08:54:30,235 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:54:30,239 DEBUG auth permission: Permission{resource='prod:prod:config/mogu-gateway', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NjA3MH0.LK49OjcLfJxWZ1qVo9utbs-xk7gUoTCs1k4ndkp3C58', globalAdmin=true}
+
+2023-10-27 08:54:30,251 WARN Invalid server identity value for damaha666 from 172.18.0.6
+
+2023-10-27 08:54:30,252 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:54:30,256 DEBUG auth permission: Permission{resource='prod:prod:config/mogu-gateway.yaml', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NjA3MH0.LK49OjcLfJxWZ1qVo9utbs-xk7gUoTCs1k4ndkp3C58', globalAdmin=true}
+
+2023-10-27 08:54:30,263 WARN Invalid server identity value for damaha666 from 172.18.0.6
+
+2023-10-27 08:54:30,264 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:54:30,267 DEBUG auth permission: Permission{resource='prod:prod:config/mogu-gateway-dev.yaml', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NjA3MH0.LK49OjcLfJxWZ1qVo9utbs-xk7gUoTCs1k4ndkp3C58', globalAdmin=true}
+
+2023-10-27 08:58:31,520 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:58:31,521 DEBUG auth start, request: GET /nacos/v1/cs/configs
+
+2023-10-27 08:58:31,525 DEBUG auth permission: Permission{resource='dev:*:config/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:58:33,549 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:58:33,550 DEBUG auth start, request: GET /nacos/v1/ns/catalog/services
+
+2023-10-27 08:58:33,554 DEBUG auth permission: Permission{resource='dev:*:naming/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:58:34,411 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:58:34,411 DEBUG auth start, request: GET /nacos/v1/ns/catalog/services
+
+2023-10-27 08:58:34,415 DEBUG auth permission: Permission{resource='prod:*:naming/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:58:35,553 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:58:35,554 DEBUG auth start, request: GET /nacos/v1/ns/catalog/services
+
+2023-10-27 08:58:35,558 DEBUG auth permission: Permission{resource='dev:*:naming/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:58:36,096 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:58:36,099 DEBUG auth start, request: GET /nacos/v1/ns/catalog/services
+
+2023-10-27 08:58:36,107 DEBUG auth permission: Permission{resource='test:*:naming/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:58:36,593 WARN Invalid server identity value for damaha666 from 172.18.0.1
+
+2023-10-27 08:58:36,594 DEBUG auth start, request: GET /nacos/v1/ns/catalog/services
+
+2023-10-27 08:58:36,599 DEBUG auth permission: Permission{resource='dev:*:naming/*', action='r'}, user: NacosUser{token='eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuYWNvcyIsImV4cCI6MTY5ODM4NTQ3N30.oNJF-F0B_f6mdLdD80YJIg_WcCmMwODhNqaR56I26gk', globalAdmin=true}
+
+2023-10-27 08:59:57,125 WARN Invalid server identity value for damaha666 from 172.18.0.1
+

@@ -147,7 +147,7 @@ public class FileServiceImpl extends SuperServiceImpl<FileMapper, File> implemen
 
         // 判断图片来源
         if (SysConf.PICTURE.equals(source)) {
-            // 当从vue-mogu-web网站过来的，直接从参数中获取
+            // 当从vue-action-web网站过来的，直接从参数中获取
             userUid = request.getParameter(SysConf.USER_UID);
             adminUid = request.getParameter(SysConf.ADMIN_UID);
             projectName = request.getParameter(SysConf.PROJECT_NAME);
